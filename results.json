@@ -1,12 +1,12 @@
 {
-  "completed": 52432,
+  "completed": 53034,
   "total": 130410,
   "generated": 0,
   "error": false,
   "results": [
     {
       "id": 123,
-      "title": "One in 59,049 · Cm(maj7) to E♭m(maj7)/B♭",
+      "title": "One in 59,049",
       "evidence": "Exact finite count",
       "archived": false,
       "frames": [
@@ -79,7 +79,7 @@
       ],
       "count": 1,
       "total": 59049,
-      "question": "The bass falls six semitones, then rises four. At moves 3, 6, and 10 the chord must have four distinct pitch classes. Which move order reaches the required chords at moves 3 and 10?",
+      "question": "At each move, the bass and one upper voice move a semitone in opposite directions. The bass falls for six moves, then rises for four. At moves 3, 6, and 10 the chord must have four distinct pitch classes. Which move order reaches the required chords at moves 3 and 10?",
       "slug": "one-in-59049",
       "explanation": [
         "Move 3 requires A–E♭–B♭–B. The starting G is the only upper voice that can reach B♭ in the first three upward moves, so it takes all three.",
@@ -26822,5 +26822,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-11-26T18:06:38+00:00"
+  "publishedAt": "2026-11-26T18:07:46+00:00"
 }

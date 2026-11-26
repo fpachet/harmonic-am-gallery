@@ -18,7 +18,7 @@ const spellings = ['C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'A♭', 'A',
 const flatSpellings = ['C', 'D♭', 'D', 'E♭', 'E', 'F', 'G♭', 'G', 'A♭', 'A', 'B♭', 'B'];
 const letters = 'CDEFGAB';
 const displayChord = text => text.replace(/([A-G])#/g, '$1♯')
-  .replace(/([A-G])b/g, '$1♭').replace(/,(?!\s)/g, ', ');
+  .replace(/([A-G])b/g, '$1♭').replace(/,(?=[A-G])/g, ', ');
 
 function renderScore(canvas, result) {
   const scoreSpellings = result.note_spelling === 'flats' ? flatSpellings : spellings;

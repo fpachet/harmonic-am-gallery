@@ -1,9 +1,116 @@
 {
-  "completed": 50436,
+  "completed": 52432,
   "total": 130410,
   "generated": 0,
   "error": false,
   "results": [
+    {
+      "id": 123,
+      "title": "One in 59,049 · Cm(maj7) to E♭m(maj7)/B♭",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          63,
+          67,
+          71
+        ],
+        [
+          47,
+          63,
+          68,
+          71
+        ],
+        [
+          46,
+          63,
+          69,
+          71
+        ],
+        [
+          45,
+          63,
+          70,
+          71
+        ],
+        [
+          44,
+          63,
+          70,
+          72
+        ],
+        [
+          43,
+          63,
+          70,
+          73
+        ],
+        [
+          42,
+          63,
+          70,
+          74
+        ],
+        [
+          43,
+          63,
+          69,
+          74
+        ],
+        [
+          44,
+          63,
+          68,
+          74
+        ],
+        [
+          45,
+          63,
+          67,
+          74
+        ],
+        [
+          46,
+          63,
+          66,
+          74
+        ]
+      ],
+      "count": 1,
+      "total": 59049,
+      "question": "The bass falls six semitones, then rises four. At moves 3, 6, and 10 the chord must have four distinct pitch classes. Which move order reaches the required chords at moves 3 and 10?",
+      "slug": "one-in-59049",
+      "explanation": [
+        "Move 3 requires A–E♭–B♭–B. The starting G is the only upper voice that can reach B♭ in the first three upward moves, so it takes all three.",
+        "Move 10 requires E♭m(maj7)/B♭. From move 3, the B♭ voice can reach only G♭ among the final upper notes. That uses all four downward moves. The B voice takes all three remaining upward moves to D, and E♭ stays fixed."
+      ],
+      "note_spelling": "flats",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Cm(maj7)"
+        },
+        {
+          "step": 3,
+          "chord": "A–E♭–B♭–B"
+        },
+        {
+          "step": 10,
+          "chord": "E♭m(maj7)/B♭"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 3,
+          "count": 1467
+        },
+        {
+          "removed": 10,
+          "count": 749
+        }
+      ]
+    },
     {
       "id": 122,
       "title": "A shape cycle from FmMaj7/C",
@@ -26715,5 +26822,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-11-26T18:02:59+00:00"
+  "publishedAt": "2026-11-26T18:06:38+00:00"
 }

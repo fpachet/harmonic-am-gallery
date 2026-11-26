@@ -12,15 +12,18 @@ const showMore = document.querySelector('#show-more');
 const rendered = new Map();
 let latestResults = [];
 let visibleCount = 12;
+let lastLinked;
 
 const spellings = ['C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'A♭', 'A', 'B♭', 'B'];
+const flatSpellings = ['C', 'D♭', 'D', 'E♭', 'E', 'F', 'G♭', 'G', 'A♭', 'A', 'B♭', 'B'];
 const letters = 'CDEFGAB';
-const pitchName = pitch => spellings[pitch % 12] + (Math.floor(pitch / 12) - 1);
 const displayChord = text => text.replace(/([A-G])#/g, '$1♯')
   .replace(/([A-G])b/g, '$1♭').replace(/,(?!\s)/g, ', ');
-const diatonic = pitch => 7 * (Math.floor(pitch / 12) - 1) + letters.indexOf(spellings[pitch % 12][0]);
 
 function renderScore(canvas, result) {
+  const scoreSpellings = result.note_spelling === 'flats' ? flatSpellings : spellings;
+  const pitchName = pitch => scoreSpellings[pitch % 12] + (Math.floor(pitch / 12) - 1);
+  const diatonic = pitch => 7 * (Math.floor(pitch / 12) - 1) + letters.indexOf(scoreSpellings[pitch % 12][0]);
   const scale = window.devicePixelRatio || 1;
   const spacing = 59;
   const left = 84;
@@ -65,7 +68,7 @@ function renderScore(canvas, result) {
   function chord(pitches, x, bottom, base, carry) {
     const notes = [...new Set(pitches)].sort((a, b) => a - b).map(pitch => ({
       offset: diatonic(pitch) - base,
-      accidental: spellings[pitch % 12][1] || '',
+      accidental: scoreSpellings[pitch % 12][1] || '',
     }));
     const accidentals = [];
     let last = -Infinity;
@@ -212,17 +215,30 @@ async function play(button, result, highlight) {
 
 function card(result) {
   const article = template.content.firstElementChild.cloneNode(true);
+  if (result.slug) article.id = result.slug;
   const title = displayChord(result.title);
   article.querySelector('h2').textContent = title;
   article.querySelector('.evidence').textContent = result.archived
     ? `From the archive · ${result.evidence}` : result.evidence;
   article.querySelector('.question').textContent = displayChord(result.question);
-  const scope = result.archived ? '' : ' Each marked chord has four distinct pitch classes.';
+  const hasExplanation = Boolean(result.explanation?.length);
+  const scope = result.archived || hasExplanation ? '' : ' Each marked chord has four distinct pitch classes.';
   article.querySelector('.answer').textContent =
     `${formatCount(result.count)} of ${formatCount(result.total)} possible move orders satisfies the marked checkpoints.${scope}`;
 
+  const explanation = article.querySelector('.explanation');
+  if (hasExplanation) {
+    explanation.hidden = false;
+    for (const text of result.explanation) {
+      const paragraph = document.createElement('p');
+      paragraph.textContent = text;
+      explanation.append(paragraph);
+    }
+  }
+
   const details = article.querySelector('details');
   details.hidden = result.relaxations.length === 0;
+  details.open = hasExplanation && !details.hidden;
   if (!result.archived) {
     article.querySelector('.relaxation-rule').textContent =
       'At the omitted checkpoint, any chord with four distinct pitch classes is allowed.';
@@ -247,7 +263,9 @@ function card(result) {
 }
 
 function showResults() {
-  const visible = latestResults.slice(0, visibleCount);
+  const linked = latestResults.find(result => result.slug && `#${result.slug}` === window.location.hash);
+  const ordered = linked ? [linked, ...latestResults.filter(result => result.id !== linked.id)] : latestResults;
+  const visible = ordered.slice(0, visibleCount);
   const retained = new Set(visible.map(result => result.id));
   for (const [id, article] of rendered) {
     if (!retained.has(id)) {
@@ -265,7 +283,11 @@ function showResults() {
     if (node !== results.children[index]) results.insertBefore(node, results.children[index] ?? null);
   });
   showMore.hidden = visible.length === latestResults.length;
+  if (linked && linked.slug !== lastLinked) rendered.get(linked.id).scrollIntoView();
+  lastLinked = linked?.slug;
 }
+
+window.addEventListener('hashchange', showResults);
 
 showMore.addEventListener('click', () => {
   const firstNew = visibleCount;

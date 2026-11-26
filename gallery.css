@@ -54,6 +54,7 @@ main { padding-bottom: 2rem; }
   border-radius: .75rem;
   padding: clamp(.85rem, 3vw, 1.5rem);
   min-width: 0;
+  scroll-margin-top: .75rem;
 }
 .result-header { display: flex; align-items: center; justify-content: space-between; gap: .75rem; }
 .evidence { color: var(--muted); font-size: .875rem; margin-bottom: .28rem; }
@@ -82,6 +83,9 @@ main { padding-bottom: 2rem; }
 canvas { display: block; }
 .question { margin: 0 0 .4rem; }
 .answer { color: var(--muted); margin: 0; }
+.explanation { margin-top: 1rem; }
+.explanation h3 { font-size: 1rem; margin: 0 0 .4rem; }
+.explanation p { margin: .4rem 0 0; }
 .relaxations { border-top: 1px solid #dce5df; margin-top: 1rem; padding-top: .75rem; }
 .relaxations summary { cursor: pointer; color: var(--accent); font-weight: 600; }
 .relaxation-rule { color: var(--muted); margin: .6rem 0; }

@@ -1,9 +1,4932 @@
 {
-  "completed": 96369,
+  "completed": 101880,
   "total": 130410,
   "generated": 0,
   "error": false,
   "results": [
+    {
+      "id": 249,
+      "title": "A shape cycle from C#mMaj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          61,
+          64,
+          68
+        ],
+        [
+          47,
+          61,
+          64,
+          69
+        ],
+        [
+          46,
+          61,
+          64,
+          70
+        ],
+        [
+          45,
+          61,
+          64,
+          71
+        ],
+        [
+          44,
+          61,
+          64,
+          72
+        ],
+        [
+          43,
+          61,
+          65,
+          72
+        ],
+        [
+          42,
+          61,
+          66,
+          72
+        ],
+        [
+          41,
+          61,
+          67,
+          72
+        ],
+        [
+          40,
+          61,
+          68,
+          72
+        ],
+        [
+          39,
+          61,
+          69,
+          72
+        ],
+        [
+          38,
+          61,
+          70,
+          72
+        ],
+        [
+          37,
+          62,
+          70,
+          72
+        ],
+        [
+          36,
+          63,
+          70,
+          72
+        ],
+        [
+          35,
+          64,
+          70,
+          72
+        ],
+        [
+          34,
+          65,
+          70,
+          72
+        ],
+        [
+          33,
+          66,
+          70,
+          72
+        ],
+        [
+          32,
+          66,
+          70,
+          73
+        ],
+        [
+          31,
+          66,
+          70,
+          74
+        ],
+        [
+          30,
+          66,
+          70,
+          75
+        ],
+        [
+          29,
+          66,
+          70,
+          76
+        ],
+        [
+          28,
+          66,
+          71,
+          76
+        ],
+        [
+          27,
+          66,
+          72,
+          76
+        ],
+        [
+          26,
+          66,
+          73,
+          76
+        ],
+        [
+          25,
+          66,
+          74,
+          76
+        ],
+        [
+          24,
+          67,
+          74,
+          76
+        ],
+        [
+          23,
+          68,
+          74,
+          76
+        ],
+        [
+          22,
+          69,
+          74,
+          76
+        ],
+        [
+          21,
+          70,
+          74,
+          76
+        ],
+        [
+          20,
+          70,
+          74,
+          77
+        ],
+        [
+          19,
+          70,
+          74,
+          78
+        ],
+        [
+          18,
+          70,
+          74,
+          79
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach C♯mMaj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–10 must reach {C, C♯, D, B♭}. The upper voices share 6 upward moves. Only E4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 11–15 must reach {C, F♯, A, B♭}. The upper voices share 5 upward moves. Only C♯4 can reach the required F♯4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 16–19 must reach {E, F, F♯, B♭}. The upper voices share 4 upward moves. Only C5 can reach the required E5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 20–23 must reach {C♯, D, E, F♯}. The upper voices share 4 upward moves. Only B♭4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 24–27 must reach {D, E, A, B♭}. The upper voices share 4 upward moves. Only F♯4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 28–30 must reach GmMaj7/F♯. The upper voices share 3 upward moves. Only E5 can reach the required G5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "C#mMaj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "C#mMaj7/Ab"
+        },
+        {
+          "step": 10,
+          "chord": "{C,C#,D,Bb}"
+        },
+        {
+          "step": 15,
+          "chord": "{C,F#,A,Bb}"
+        },
+        {
+          "step": 19,
+          "chord": "{E,F,F#,Bb}"
+        },
+        {
+          "step": 23,
+          "chord": "{C#,D,E,F#}"
+        },
+        {
+          "step": 27,
+          "chord": "{D,E,A,Bb}"
+        },
+        {
+          "step": 30,
+          "chord": "GmMaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 225
+        },
+        {
+          "removed": 10,
+          "count": 487
+        },
+        {
+          "removed": 15,
+          "count": 130
+        },
+        {
+          "removed": 19,
+          "count": 66
+        },
+        {
+          "removed": 23,
+          "count": 53
+        },
+        {
+          "removed": 27,
+          "count": 22
+        },
+        {
+          "removed": 30,
+          "count": 18
+        }
+      ]
+    },
+    {
+      "id": 248,
+      "title": "A shape cycle from C#maj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          61,
+          65,
+          68
+        ],
+        [
+          47,
+          61,
+          65,
+          69
+        ],
+        [
+          46,
+          61,
+          65,
+          70
+        ],
+        [
+          45,
+          61,
+          65,
+          71
+        ],
+        [
+          44,
+          61,
+          65,
+          72
+        ],
+        [
+          43,
+          61,
+          66,
+          72
+        ],
+        [
+          42,
+          61,
+          67,
+          72
+        ],
+        [
+          41,
+          61,
+          68,
+          72
+        ],
+        [
+          40,
+          61,
+          69,
+          72
+        ],
+        [
+          39,
+          61,
+          70,
+          72
+        ],
+        [
+          38,
+          61,
+          71,
+          72
+        ],
+        [
+          37,
+          62,
+          71,
+          72
+        ],
+        [
+          36,
+          63,
+          71,
+          72
+        ],
+        [
+          35,
+          64,
+          71,
+          72
+        ],
+        [
+          34,
+          65,
+          71,
+          72
+        ],
+        [
+          33,
+          65,
+          71,
+          73
+        ],
+        [
+          32,
+          65,
+          71,
+          74
+        ],
+        [
+          31,
+          65,
+          71,
+          75
+        ],
+        [
+          30,
+          65,
+          71,
+          76
+        ],
+        [
+          29,
+          65,
+          72,
+          76
+        ],
+        [
+          28,
+          65,
+          73,
+          76
+        ],
+        [
+          27,
+          65,
+          74,
+          76
+        ],
+        [
+          26,
+          66,
+          74,
+          76
+        ],
+        [
+          25,
+          67,
+          74,
+          76
+        ],
+        [
+          24,
+          68,
+          74,
+          76
+        ],
+        [
+          23,
+          69,
+          74,
+          76
+        ],
+        [
+          22,
+          70,
+          74,
+          76
+        ],
+        [
+          21,
+          71,
+          74,
+          76
+        ],
+        [
+          20,
+          71,
+          74,
+          77
+        ],
+        [
+          19,
+          71,
+          74,
+          78
+        ],
+        [
+          18,
+          71,
+          74,
+          79
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach C♯maj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–10 must reach {C, C♯, D, B}. The upper voices share 6 upward moves. Only F4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 11–14 must reach {C, F, B♭, B}. The upper voices share 4 upward moves. Only C♯4 can reach the required F4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 15–18 must reach {E, F, F♯, B}. The upper voices share 4 upward moves. Only C5 can reach the required E5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 19–21 must reach {D, E♭, E, F}. The upper voices share 3 upward moves. Only B4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 22–27 must reach {D, E, A, B}. The upper voices share 6 upward moves. Only F4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 28–30 must reach Gmaj7/F♯. The upper voices share 3 upward moves. Only E5 can reach the required G5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "C#maj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "C#maj7/Ab"
+        },
+        {
+          "step": 10,
+          "chord": "{C,C#,D,B}"
+        },
+        {
+          "step": 14,
+          "chord": "{C,F,Bb,B}"
+        },
+        {
+          "step": 18,
+          "chord": "{E,F,F#,B}"
+        },
+        {
+          "step": 21,
+          "chord": "{D,Eb,E,F}"
+        },
+        {
+          "step": 27,
+          "chord": "{D,E,A,B}"
+        },
+        {
+          "step": 30,
+          "chord": "Gmaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 155
+        },
+        {
+          "removed": 10,
+          "count": 187
+        },
+        {
+          "removed": 14,
+          "count": 126
+        },
+        {
+          "removed": 18,
+          "count": 56
+        },
+        {
+          "removed": 21,
+          "count": 85
+        },
+        {
+          "removed": 27,
+          "count": 57
+        },
+        {
+          "removed": 30,
+          "count": 17
+        }
+      ]
+    },
+    {
+      "id": 247,
+      "title": "A shape cycle from FmMaj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          64,
+          65,
+          68
+        ],
+        [
+          47,
+          64,
+          65,
+          69
+        ],
+        [
+          46,
+          64,
+          65,
+          70
+        ],
+        [
+          45,
+          64,
+          65,
+          71
+        ],
+        [
+          44,
+          64,
+          65,
+          72
+        ],
+        [
+          43,
+          64,
+          66,
+          72
+        ],
+        [
+          42,
+          64,
+          67,
+          72
+        ],
+        [
+          41,
+          64,
+          68,
+          72
+        ],
+        [
+          40,
+          64,
+          69,
+          72
+        ],
+        [
+          39,
+          64,
+          70,
+          72
+        ],
+        [
+          38,
+          64,
+          71,
+          72
+        ],
+        [
+          37,
+          65,
+          71,
+          72
+        ],
+        [
+          36,
+          66,
+          71,
+          72
+        ],
+        [
+          35,
+          67,
+          71,
+          72
+        ],
+        [
+          34,
+          68,
+          71,
+          72
+        ],
+        [
+          33,
+          68,
+          71,
+          73
+        ],
+        [
+          32,
+          68,
+          71,
+          74
+        ],
+        [
+          31,
+          68,
+          71,
+          75
+        ],
+        [
+          30,
+          68,
+          71,
+          76
+        ],
+        [
+          29,
+          68,
+          72,
+          76
+        ],
+        [
+          28,
+          68,
+          73,
+          76
+        ],
+        [
+          27,
+          68,
+          74,
+          76
+        ],
+        [
+          26,
+          69,
+          74,
+          76
+        ],
+        [
+          25,
+          70,
+          74,
+          76
+        ],
+        [
+          24,
+          71,
+          74,
+          76
+        ],
+        [
+          23,
+          71,
+          74,
+          77
+        ],
+        [
+          22,
+          71,
+          74,
+          78
+        ],
+        [
+          21,
+          71,
+          74,
+          79
+        ],
+        [
+          20,
+          71,
+          74,
+          80
+        ],
+        [
+          19,
+          71,
+          74,
+          81
+        ],
+        [
+          18,
+          71,
+          74,
+          82
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach FmMaj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–10 must reach {C, D, E, B}. The upper voices share 6 upward moves. Only F4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 11–14 must reach {C, A♭, B♭, B}. The upper voices share 4 upward moves. Only E4 can reach the required A♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 15–18 must reach {E, F♯, A♭, B}. The upper voices share 4 upward moves. Only C5 can reach the required E5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 19–21 must reach {D, E♭, E, A♭}. The upper voices share 3 upward moves. Only B4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 22–24 must reach {C, D, E, B}. The upper voices share 3 upward moves. Only A♭4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 25–30 must reach BmMaj7/F♯. The upper voices share 6 upward moves. Only E5 can reach the required B♭5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "FmMaj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "FmMaj7/Ab"
+        },
+        {
+          "step": 10,
+          "chord": "{C,D,E,B}"
+        },
+        {
+          "step": 14,
+          "chord": "{C,Ab,Bb,B}"
+        },
+        {
+          "step": 18,
+          "chord": "{E,F#,Ab,B}"
+        },
+        {
+          "step": 21,
+          "chord": "{D,Eb,E,Ab}"
+        },
+        {
+          "step": 24,
+          "chord": "{C,D,E,B}"
+        },
+        {
+          "step": 30,
+          "chord": "BmMaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 155
+        },
+        {
+          "removed": 10,
+          "count": 330
+        },
+        {
+          "removed": 14,
+          "count": 69
+        },
+        {
+          "removed": 18,
+          "count": 56
+        },
+        {
+          "removed": 21,
+          "count": 19
+        },
+        {
+          "removed": 24,
+          "count": 120
+        },
+        {
+          "removed": 30,
+          "count": 313
+        }
+      ]
+    },
+    {
+      "id": 246,
+      "title": "A shape cycle from C#maj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          61,
+          65,
+          68
+        ],
+        [
+          47,
+          61,
+          65,
+          69
+        ],
+        [
+          46,
+          61,
+          65,
+          70
+        ],
+        [
+          45,
+          61,
+          65,
+          71
+        ],
+        [
+          44,
+          61,
+          65,
+          72
+        ],
+        [
+          43,
+          61,
+          66,
+          72
+        ],
+        [
+          42,
+          61,
+          67,
+          72
+        ],
+        [
+          41,
+          61,
+          68,
+          72
+        ],
+        [
+          40,
+          61,
+          69,
+          72
+        ],
+        [
+          39,
+          61,
+          70,
+          72
+        ],
+        [
+          38,
+          61,
+          71,
+          72
+        ],
+        [
+          37,
+          62,
+          71,
+          72
+        ],
+        [
+          36,
+          63,
+          71,
+          72
+        ],
+        [
+          35,
+          64,
+          71,
+          72
+        ],
+        [
+          34,
+          65,
+          71,
+          72
+        ],
+        [
+          33,
+          65,
+          71,
+          73
+        ],
+        [
+          32,
+          65,
+          71,
+          74
+        ],
+        [
+          31,
+          65,
+          71,
+          75
+        ],
+        [
+          30,
+          65,
+          72,
+          75
+        ],
+        [
+          29,
+          65,
+          73,
+          75
+        ],
+        [
+          28,
+          65,
+          74,
+          75
+        ],
+        [
+          27,
+          66,
+          74,
+          75
+        ],
+        [
+          26,
+          67,
+          74,
+          75
+        ],
+        [
+          25,
+          68,
+          74,
+          75
+        ],
+        [
+          24,
+          69,
+          74,
+          75
+        ],
+        [
+          23,
+          70,
+          74,
+          75
+        ],
+        [
+          22,
+          71,
+          74,
+          75
+        ],
+        [
+          21,
+          71,
+          74,
+          76
+        ],
+        [
+          20,
+          71,
+          74,
+          77
+        ],
+        [
+          19,
+          71,
+          74,
+          78
+        ],
+        [
+          18,
+          71,
+          74,
+          79
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach C♯maj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–10 must reach {C, C♯, D, B}. The upper voices share 6 upward moves. Only F4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 11–14 must reach {C, F, B♭, B}. The upper voices share 4 upward moves. Only C♯4 can reach the required F4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 15–17 must reach {E♭, F, G, B}. The upper voices share 3 upward moves. Only C5 can reach the required E♭5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 18–20 must reach {D, E♭, E, F}. The upper voices share 3 upward moves. Only B4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 21–26 must reach {D, E♭, B♭, B}. The upper voices share 6 upward moves. Only F4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 27–30 must reach Gmaj7/F♯. The upper voices share 4 upward moves. Only E♭5 can reach the required G5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "C#maj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "C#maj7/Ab"
+        },
+        {
+          "step": 10,
+          "chord": "{C,C#,D,B}"
+        },
+        {
+          "step": 14,
+          "chord": "{C,F,Bb,B}"
+        },
+        {
+          "step": 17,
+          "chord": "{Eb,F,G,B}"
+        },
+        {
+          "step": 20,
+          "chord": "{D,Eb,E,F}"
+        },
+        {
+          "step": 26,
+          "chord": "{D,Eb,Bb,B}"
+        },
+        {
+          "step": 30,
+          "chord": "Gmaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 155
+        },
+        {
+          "removed": 10,
+          "count": 187
+        },
+        {
+          "removed": 14,
+          "count": 56
+        },
+        {
+          "removed": 17,
+          "count": 17
+        },
+        {
+          "removed": 20,
+          "count": 85
+        },
+        {
+          "removed": 26,
+          "count": 201
+        },
+        {
+          "removed": 30,
+          "count": 51
+        }
+      ]
+    },
+    {
+      "id": 245,
+      "title": "A shape cycle from C#maj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          61,
+          65,
+          68
+        ],
+        [
+          47,
+          61,
+          65,
+          69
+        ],
+        [
+          46,
+          61,
+          65,
+          70
+        ],
+        [
+          45,
+          61,
+          65,
+          71
+        ],
+        [
+          44,
+          61,
+          65,
+          72
+        ],
+        [
+          43,
+          61,
+          66,
+          72
+        ],
+        [
+          42,
+          61,
+          67,
+          72
+        ],
+        [
+          41,
+          61,
+          68,
+          72
+        ],
+        [
+          40,
+          61,
+          69,
+          72
+        ],
+        [
+          39,
+          61,
+          70,
+          72
+        ],
+        [
+          38,
+          61,
+          71,
+          72
+        ],
+        [
+          37,
+          62,
+          71,
+          72
+        ],
+        [
+          36,
+          63,
+          71,
+          72
+        ],
+        [
+          35,
+          64,
+          71,
+          72
+        ],
+        [
+          34,
+          65,
+          71,
+          72
+        ],
+        [
+          33,
+          65,
+          71,
+          73
+        ],
+        [
+          32,
+          65,
+          71,
+          74
+        ],
+        [
+          31,
+          65,
+          71,
+          75
+        ],
+        [
+          30,
+          66,
+          71,
+          75
+        ],
+        [
+          29,
+          67,
+          71,
+          75
+        ],
+        [
+          28,
+          68,
+          71,
+          75
+        ],
+        [
+          27,
+          68,
+          71,
+          76
+        ],
+        [
+          26,
+          68,
+          71,
+          77
+        ],
+        [
+          25,
+          68,
+          71,
+          78
+        ],
+        [
+          24,
+          68,
+          71,
+          79
+        ],
+        [
+          23,
+          68,
+          72,
+          79
+        ],
+        [
+          22,
+          68,
+          73,
+          79
+        ],
+        [
+          21,
+          68,
+          74,
+          79
+        ],
+        [
+          20,
+          69,
+          74,
+          79
+        ],
+        [
+          19,
+          70,
+          74,
+          79
+        ],
+        [
+          18,
+          71,
+          74,
+          79
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach C♯maj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–10 must reach {C, C♯, D, B}. The upper voices share 6 upward moves. Only F4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 11–14 must reach {C, F, B♭, B}. The upper voices share 4 upward moves. Only C♯4 can reach the required F4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 15–17 must reach {E♭, F, G, B}. The upper voices share 3 upward moves. Only C5 can reach the required E♭5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 18–20 must reach Emaj7. The upper voices share 3 upward moves. Only F4 can reach the required A♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 21–24 must reach {C, G, A♭, B}. The upper voices share 4 upward moves. Only E♭5 can reach the required G5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 25–27 must reach {D, G, A♭, A}. The upper voices share 3 upward moves. Only B4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 28–30 must reach Gmaj7/F♯. The upper voices share 3 upward moves. Only A♭4 can reach the required B4. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "C#maj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "C#maj7/Ab"
+        },
+        {
+          "step": 10,
+          "chord": "{C,C#,D,B}"
+        },
+        {
+          "step": 14,
+          "chord": "{C,F,Bb,B}"
+        },
+        {
+          "step": 17,
+          "chord": "{Eb,F,G,B}"
+        },
+        {
+          "step": 20,
+          "chord": "Emaj7"
+        },
+        {
+          "step": 24,
+          "chord": "{C,G,Ab,B}"
+        },
+        {
+          "step": 27,
+          "chord": "{D,G,Ab,A}"
+        },
+        {
+          "step": 30,
+          "chord": "Gmaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 155
+        },
+        {
+          "removed": 10,
+          "count": 187
+        },
+        {
+          "removed": 14,
+          "count": 56
+        },
+        {
+          "removed": 17,
+          "count": 11
+        },
+        {
+          "removed": 20,
+          "count": 41
+        },
+        {
+          "removed": 24,
+          "count": 23
+        },
+        {
+          "removed": 27,
+          "count": 10
+        },
+        {
+          "removed": 30,
+          "count": 21
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "title": "A shape cycle from C#maj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          61,
+          65,
+          68
+        ],
+        [
+          47,
+          61,
+          65,
+          69
+        ],
+        [
+          46,
+          61,
+          65,
+          70
+        ],
+        [
+          45,
+          61,
+          65,
+          71
+        ],
+        [
+          44,
+          61,
+          65,
+          72
+        ],
+        [
+          43,
+          61,
+          66,
+          72
+        ],
+        [
+          42,
+          61,
+          67,
+          72
+        ],
+        [
+          41,
+          61,
+          68,
+          72
+        ],
+        [
+          40,
+          61,
+          69,
+          72
+        ],
+        [
+          39,
+          61,
+          70,
+          72
+        ],
+        [
+          38,
+          62,
+          70,
+          72
+        ],
+        [
+          37,
+          63,
+          70,
+          72
+        ],
+        [
+          36,
+          64,
+          70,
+          72
+        ],
+        [
+          35,
+          65,
+          70,
+          72
+        ],
+        [
+          34,
+          66,
+          70,
+          72
+        ],
+        [
+          33,
+          67,
+          70,
+          72
+        ],
+        [
+          32,
+          67,
+          70,
+          73
+        ],
+        [
+          31,
+          67,
+          70,
+          74
+        ],
+        [
+          30,
+          67,
+          70,
+          75
+        ],
+        [
+          29,
+          67,
+          70,
+          76
+        ],
+        [
+          28,
+          67,
+          71,
+          76
+        ],
+        [
+          27,
+          67,
+          72,
+          76
+        ],
+        [
+          26,
+          67,
+          73,
+          76
+        ],
+        [
+          25,
+          67,
+          74,
+          76
+        ],
+        [
+          24,
+          68,
+          74,
+          76
+        ],
+        [
+          23,
+          69,
+          74,
+          76
+        ],
+        [
+          22,
+          70,
+          74,
+          76
+        ],
+        [
+          21,
+          71,
+          74,
+          76
+        ],
+        [
+          20,
+          71,
+          74,
+          77
+        ],
+        [
+          19,
+          71,
+          74,
+          78
+        ],
+        [
+          18,
+          71,
+          74,
+          79
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach C♯maj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–9 must reach {C, C♯, E♭, B♭}. The upper voices share 5 upward moves. Only F4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 10–15 must reach {C, G, A, B♭}. The upper voices share 6 upward moves. Only C♯4 can reach the required G4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 16–19 must reach {E, F, G, B♭}. The upper voices share 4 upward moves. Only C5 can reach the required E5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 20–23 must reach {C♯, D, E, G}. The upper voices share 4 upward moves. Only B♭4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 24–27 must reach {D, E, A, B}. The upper voices share 4 upward moves. Only G4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 28–30 must reach Gmaj7/F♯. The upper voices share 3 upward moves. Only E5 can reach the required G5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "C#maj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "C#maj7/Ab"
+        },
+        {
+          "step": 9,
+          "chord": "{C,C#,Eb,Bb}"
+        },
+        {
+          "step": 15,
+          "chord": "{C,G,A,Bb}"
+        },
+        {
+          "step": 19,
+          "chord": "{E,F,G,Bb}"
+        },
+        {
+          "step": 23,
+          "chord": "{C#,D,E,G}"
+        },
+        {
+          "step": 27,
+          "chord": "{D,E,A,B}"
+        },
+        {
+          "step": 30,
+          "chord": "Gmaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 87
+        },
+        {
+          "removed": 9,
+          "count": 367
+        },
+        {
+          "removed": 15,
+          "count": 330
+        },
+        {
+          "removed": 19,
+          "count": 66
+        },
+        {
+          "removed": 23,
+          "count": 62
+        },
+        {
+          "removed": 27,
+          "count": 18
+        },
+        {
+          "removed": 30,
+          "count": 17
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "title": "A shape cycle from Dm7b5/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          62,
+          65,
+          68
+        ],
+        [
+          47,
+          62,
+          65,
+          69
+        ],
+        [
+          46,
+          62,
+          65,
+          70
+        ],
+        [
+          45,
+          62,
+          65,
+          71
+        ],
+        [
+          44,
+          62,
+          65,
+          72
+        ],
+        [
+          43,
+          62,
+          66,
+          72
+        ],
+        [
+          42,
+          62,
+          67,
+          72
+        ],
+        [
+          41,
+          62,
+          68,
+          72
+        ],
+        [
+          40,
+          62,
+          69,
+          72
+        ],
+        [
+          39,
+          62,
+          70,
+          72
+        ],
+        [
+          38,
+          63,
+          70,
+          72
+        ],
+        [
+          37,
+          64,
+          70,
+          72
+        ],
+        [
+          36,
+          65,
+          70,
+          72
+        ],
+        [
+          35,
+          66,
+          70,
+          72
+        ],
+        [
+          34,
+          67,
+          70,
+          72
+        ],
+        [
+          33,
+          68,
+          70,
+          72
+        ],
+        [
+          32,
+          68,
+          70,
+          73
+        ],
+        [
+          31,
+          68,
+          70,
+          74
+        ],
+        [
+          30,
+          68,
+          70,
+          75
+        ],
+        [
+          29,
+          68,
+          70,
+          76
+        ],
+        [
+          28,
+          68,
+          71,
+          76
+        ],
+        [
+          27,
+          68,
+          72,
+          76
+        ],
+        [
+          26,
+          68,
+          73,
+          76
+        ],
+        [
+          25,
+          68,
+          74,
+          76
+        ],
+        [
+          24,
+          69,
+          74,
+          76
+        ],
+        [
+          23,
+          70,
+          74,
+          76
+        ],
+        [
+          22,
+          71,
+          74,
+          76
+        ],
+        [
+          21,
+          71,
+          74,
+          77
+        ],
+        [
+          20,
+          71,
+          74,
+          78
+        ],
+        [
+          19,
+          71,
+          74,
+          79
+        ],
+        [
+          18,
+          71,
+          74,
+          80
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach Dm7♭5/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–9 must reach {C, D, E♭, B♭}. The upper voices share 5 upward moves. Only F4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 10–15 must reach {C, A♭, A, B♭}. The upper voices share 6 upward moves. Only D4 can reach the required A♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 16–19 must reach {E, F, A♭, B♭}. The upper voices share 4 upward moves. Only C5 can reach the required E5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 20–23 must reach {C♯, D, E, A♭}. The upper voices share 4 upward moves. Only B♭4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 24–26 must reach {D, E, B♭, B}. The upper voices share 3 upward moves. Only A♭4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 27–30 must reach A♭m7♭5/F♯. The upper voices share 4 upward moves. Only E5 can reach the required A♭5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Dm7b5/C"
+        },
+        {
+          "step": 4,
+          "chord": "Dm7b5/Ab"
+        },
+        {
+          "step": 9,
+          "chord": "{C,D,Eb,Bb}"
+        },
+        {
+          "step": 15,
+          "chord": "{C,Ab,A,Bb}"
+        },
+        {
+          "step": 19,
+          "chord": "{E,F,Ab,Bb}"
+        },
+        {
+          "step": 23,
+          "chord": "{C#,D,E,Ab}"
+        },
+        {
+          "step": 26,
+          "chord": "{D,E,Bb,B}"
+        },
+        {
+          "step": 30,
+          "chord": "Abm7b5/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 87
+        },
+        {
+          "removed": 9,
+          "count": 447
+        },
+        {
+          "removed": 15,
+          "count": 225
+        },
+        {
+          "removed": 19,
+          "count": 66
+        },
+        {
+          "removed": 23,
+          "count": 22
+        },
+        {
+          "removed": 26,
+          "count": 24
+        },
+        {
+          "removed": 30,
+          "count": 42
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "title": "A shape cycle from D7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          62,
+          66,
+          69
+        ],
+        [
+          47,
+          62,
+          66,
+          70
+        ],
+        [
+          46,
+          62,
+          66,
+          71
+        ],
+        [
+          45,
+          62,
+          66,
+          72
+        ],
+        [
+          44,
+          62,
+          66,
+          73
+        ],
+        [
+          43,
+          62,
+          67,
+          73
+        ],
+        [
+          42,
+          62,
+          68,
+          73
+        ],
+        [
+          41,
+          62,
+          69,
+          73
+        ],
+        [
+          40,
+          62,
+          70,
+          73
+        ],
+        [
+          39,
+          62,
+          71,
+          73
+        ],
+        [
+          38,
+          63,
+          71,
+          73
+        ],
+        [
+          37,
+          64,
+          71,
+          73
+        ],
+        [
+          36,
+          65,
+          71,
+          73
+        ],
+        [
+          35,
+          66,
+          71,
+          73
+        ],
+        [
+          34,
+          67,
+          71,
+          73
+        ],
+        [
+          33,
+          67,
+          71,
+          74
+        ],
+        [
+          32,
+          67,
+          71,
+          75
+        ],
+        [
+          31,
+          67,
+          71,
+          76
+        ],
+        [
+          30,
+          67,
+          71,
+          77
+        ],
+        [
+          29,
+          67,
+          72,
+          77
+        ],
+        [
+          28,
+          67,
+          73,
+          77
+        ],
+        [
+          27,
+          67,
+          74,
+          77
+        ],
+        [
+          26,
+          67,
+          75,
+          77
+        ],
+        [
+          25,
+          68,
+          75,
+          77
+        ],
+        [
+          24,
+          69,
+          75,
+          77
+        ],
+        [
+          23,
+          70,
+          75,
+          77
+        ],
+        [
+          22,
+          71,
+          75,
+          77
+        ],
+        [
+          21,
+          72,
+          75,
+          77
+        ],
+        [
+          20,
+          72,
+          75,
+          78
+        ],
+        [
+          19,
+          72,
+          75,
+          79
+        ],
+        [
+          18,
+          72,
+          75,
+          80
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach {C♯, D, F♯, A♭}. The upper voices share 4 upward moves. Only A4 can reach the required C♯5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–9 must reach {C♯, D, E♭, B}. The upper voices share 5 upward moves. Only F♯4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 10–14 must reach {C♯, G, B♭, B}. The upper voices share 5 upward moves. Only D4 can reach the required G4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 15–18 must reach {F, F♯, G, B}. The upper voices share 4 upward moves. Only C♯5 can reach the required F5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 19–22 must reach {D, E♭, F, G}. The upper voices share 4 upward moves. Only B4 can reach the required E♭5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 23–27 must reach F7/A. The upper voices share 5 upward moves. Only G4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 28–30 must reach A♭7/F♯. The upper voices share 3 upward moves. Only F5 can reach the required A♭5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "D7/C"
+        },
+        {
+          "step": 4,
+          "chord": "{C#,D,F#,Ab}"
+        },
+        {
+          "step": 9,
+          "chord": "{C#,D,Eb,B}"
+        },
+        {
+          "step": 14,
+          "chord": "{C#,G,Bb,B}"
+        },
+        {
+          "step": 18,
+          "chord": "{F,F#,G,B}"
+        },
+        {
+          "step": 22,
+          "chord": "{D,Eb,F,G}"
+        },
+        {
+          "step": 27,
+          "chord": "F7/A"
+        },
+        {
+          "step": 30,
+          "chord": "Ab7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 96
+        },
+        {
+          "removed": 9,
+          "count": 237
+        },
+        {
+          "removed": 14,
+          "count": 130
+        },
+        {
+          "removed": 18,
+          "count": 66
+        },
+        {
+          "removed": 22,
+          "count": 105
+        },
+        {
+          "removed": 27,
+          "count": 49
+        },
+        {
+          "removed": 30,
+          "count": 10
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "title": "A shape cycle from C#maj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          61,
+          65,
+          68
+        ],
+        [
+          47,
+          61,
+          65,
+          69
+        ],
+        [
+          46,
+          61,
+          65,
+          70
+        ],
+        [
+          45,
+          61,
+          65,
+          71
+        ],
+        [
+          44,
+          61,
+          65,
+          72
+        ],
+        [
+          43,
+          61,
+          66,
+          72
+        ],
+        [
+          42,
+          61,
+          67,
+          72
+        ],
+        [
+          41,
+          61,
+          68,
+          72
+        ],
+        [
+          40,
+          61,
+          69,
+          72
+        ],
+        [
+          39,
+          61,
+          70,
+          72
+        ],
+        [
+          38,
+          62,
+          70,
+          72
+        ],
+        [
+          37,
+          63,
+          70,
+          72
+        ],
+        [
+          36,
+          64,
+          70,
+          72
+        ],
+        [
+          35,
+          65,
+          70,
+          72
+        ],
+        [
+          34,
+          65,
+          70,
+          73
+        ],
+        [
+          33,
+          65,
+          70,
+          74
+        ],
+        [
+          32,
+          65,
+          70,
+          75
+        ],
+        [
+          31,
+          65,
+          70,
+          76
+        ],
+        [
+          30,
+          65,
+          71,
+          76
+        ],
+        [
+          29,
+          65,
+          72,
+          76
+        ],
+        [
+          28,
+          65,
+          73,
+          76
+        ],
+        [
+          27,
+          65,
+          74,
+          76
+        ],
+        [
+          26,
+          66,
+          74,
+          76
+        ],
+        [
+          25,
+          67,
+          74,
+          76
+        ],
+        [
+          24,
+          68,
+          74,
+          76
+        ],
+        [
+          23,
+          69,
+          74,
+          76
+        ],
+        [
+          22,
+          70,
+          74,
+          76
+        ],
+        [
+          21,
+          71,
+          74,
+          76
+        ],
+        [
+          20,
+          71,
+          74,
+          77
+        ],
+        [
+          19,
+          71,
+          74,
+          78
+        ],
+        [
+          18,
+          71,
+          74,
+          79
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach C♯maj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–9 must reach {C, C♯, E♭, B♭}. The upper voices share 5 upward moves. Only F4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 10–13 must reach {C, F, B♭, B}. The upper voices share 4 upward moves. Only C♯4 can reach the required F4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 14–17 must reach {E, F, G, B♭}. The upper voices share 4 upward moves. Only C5 can reach the required E5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 18–21 must reach {D, E♭, E, F}. The upper voices share 4 upward moves. Only B♭4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 22–27 must reach {D, E, A, B}. The upper voices share 6 upward moves. Only F4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 28–30 must reach Gmaj7/F♯. The upper voices share 3 upward moves. Only E5 can reach the required G5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "C#maj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "C#maj7/Ab"
+        },
+        {
+          "step": 9,
+          "chord": "{C,C#,Eb,Bb}"
+        },
+        {
+          "step": 13,
+          "chord": "{C,F,Bb,B}"
+        },
+        {
+          "step": 17,
+          "chord": "{E,F,G,Bb}"
+        },
+        {
+          "step": 21,
+          "chord": "{D,Eb,E,F}"
+        },
+        {
+          "step": 27,
+          "chord": "{D,E,A,B}"
+        },
+        {
+          "step": 30,
+          "chord": "Gmaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 87
+        },
+        {
+          "removed": 9,
+          "count": 67
+        },
+        {
+          "removed": 13,
+          "count": 126
+        },
+        {
+          "removed": 17,
+          "count": 66
+        },
+        {
+          "removed": 21,
+          "count": 220
+        },
+        {
+          "removed": 27,
+          "count": 57
+        },
+        {
+          "removed": 30,
+          "count": 17
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "title": "A shape cycle from Dm7b5/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          62,
+          65,
+          68
+        ],
+        [
+          47,
+          62,
+          65,
+          69
+        ],
+        [
+          46,
+          62,
+          65,
+          70
+        ],
+        [
+          45,
+          62,
+          65,
+          71
+        ],
+        [
+          44,
+          62,
+          65,
+          72
+        ],
+        [
+          43,
+          62,
+          66,
+          72
+        ],
+        [
+          42,
+          62,
+          67,
+          72
+        ],
+        [
+          41,
+          62,
+          68,
+          72
+        ],
+        [
+          40,
+          62,
+          69,
+          72
+        ],
+        [
+          39,
+          62,
+          70,
+          72
+        ],
+        [
+          38,
+          63,
+          70,
+          72
+        ],
+        [
+          37,
+          64,
+          70,
+          72
+        ],
+        [
+          36,
+          65,
+          70,
+          72
+        ],
+        [
+          35,
+          66,
+          70,
+          72
+        ],
+        [
+          34,
+          66,
+          70,
+          73
+        ],
+        [
+          33,
+          66,
+          70,
+          74
+        ],
+        [
+          32,
+          66,
+          70,
+          75
+        ],
+        [
+          31,
+          66,
+          70,
+          76
+        ],
+        [
+          30,
+          66,
+          71,
+          76
+        ],
+        [
+          29,
+          66,
+          72,
+          76
+        ],
+        [
+          28,
+          66,
+          73,
+          76
+        ],
+        [
+          27,
+          66,
+          74,
+          76
+        ],
+        [
+          26,
+          67,
+          74,
+          76
+        ],
+        [
+          25,
+          68,
+          74,
+          76
+        ],
+        [
+          24,
+          69,
+          74,
+          76
+        ],
+        [
+          23,
+          70,
+          74,
+          76
+        ],
+        [
+          22,
+          71,
+          74,
+          76
+        ],
+        [
+          21,
+          71,
+          74,
+          77
+        ],
+        [
+          20,
+          71,
+          74,
+          78
+        ],
+        [
+          19,
+          71,
+          74,
+          79
+        ],
+        [
+          18,
+          71,
+          74,
+          80
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach Dm7♭5/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–9 must reach {C, D, E♭, B♭}. The upper voices share 5 upward moves. Only F4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 10–13 must reach {C, F♯, B♭, B}. The upper voices share 4 upward moves. Only D4 can reach the required F♯4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 14–17 must reach {E, F♯, G, B♭}. The upper voices share 4 upward moves. Only C5 can reach the required E5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 18–21 must reach {D, E♭, E, F♯}. The upper voices share 4 upward moves. Only B♭4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 22–26 must reach {D, E, B♭, B}. The upper voices share 5 upward moves. Only F♯4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 27–30 must reach A♭m7♭5/F♯. The upper voices share 4 upward moves. Only E5 can reach the required A♭5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Dm7b5/C"
+        },
+        {
+          "step": 4,
+          "chord": "Dm7b5/Ab"
+        },
+        {
+          "step": 9,
+          "chord": "{C,D,Eb,Bb}"
+        },
+        {
+          "step": 13,
+          "chord": "{C,F#,Bb,B}"
+        },
+        {
+          "step": 17,
+          "chord": "{E,F#,G,Bb}"
+        },
+        {
+          "step": 21,
+          "chord": "{D,Eb,E,F#}"
+        },
+        {
+          "step": 26,
+          "chord": "{D,E,Bb,B}"
+        },
+        {
+          "step": 30,
+          "chord": "Abm7b5/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 87
+        },
+        {
+          "removed": 9,
+          "count": 105
+        },
+        {
+          "removed": 13,
+          "count": 66
+        },
+        {
+          "removed": 17,
+          "count": 66
+        },
+        {
+          "removed": 21,
+          "count": 125
+        },
+        {
+          "removed": 26,
+          "count": 142
+        },
+        {
+          "removed": 30,
+          "count": 42
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "title": "A shape cycle from FmMaj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          64,
+          65,
+          68
+        ],
+        [
+          47,
+          64,
+          65,
+          69
+        ],
+        [
+          46,
+          64,
+          65,
+          70
+        ],
+        [
+          45,
+          64,
+          65,
+          71
+        ],
+        [
+          44,
+          64,
+          65,
+          72
+        ],
+        [
+          43,
+          64,
+          66,
+          72
+        ],
+        [
+          42,
+          64,
+          67,
+          72
+        ],
+        [
+          41,
+          64,
+          68,
+          72
+        ],
+        [
+          40,
+          64,
+          69,
+          72
+        ],
+        [
+          39,
+          64,
+          70,
+          72
+        ],
+        [
+          38,
+          65,
+          70,
+          72
+        ],
+        [
+          37,
+          66,
+          70,
+          72
+        ],
+        [
+          36,
+          67,
+          70,
+          72
+        ],
+        [
+          35,
+          68,
+          70,
+          72
+        ],
+        [
+          34,
+          68,
+          70,
+          73
+        ],
+        [
+          33,
+          68,
+          70,
+          74
+        ],
+        [
+          32,
+          68,
+          70,
+          75
+        ],
+        [
+          31,
+          68,
+          70,
+          76
+        ],
+        [
+          30,
+          68,
+          71,
+          76
+        ],
+        [
+          29,
+          68,
+          72,
+          76
+        ],
+        [
+          28,
+          68,
+          73,
+          76
+        ],
+        [
+          27,
+          68,
+          74,
+          76
+        ],
+        [
+          26,
+          69,
+          74,
+          76
+        ],
+        [
+          25,
+          70,
+          74,
+          76
+        ],
+        [
+          24,
+          71,
+          74,
+          76
+        ],
+        [
+          23,
+          71,
+          74,
+          77
+        ],
+        [
+          22,
+          71,
+          74,
+          78
+        ],
+        [
+          21,
+          71,
+          74,
+          79
+        ],
+        [
+          20,
+          71,
+          74,
+          80
+        ],
+        [
+          19,
+          71,
+          74,
+          81
+        ],
+        [
+          18,
+          71,
+          74,
+          82
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach FmMaj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–9 must reach {C, E♭, E, B♭}. The upper voices share 5 upward moves. Only F4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 10–13 must reach {C, A♭, B♭, B}. The upper voices share 4 upward moves. Only E4 can reach the required A♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 14–17 must reach {E, G, A♭, B♭}. The upper voices share 4 upward moves. Only C5 can reach the required E5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 18–21 must reach {D, E♭, E, A♭}. The upper voices share 4 upward moves. Only B♭4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 22–24 must reach {C, D, E, B}. The upper voices share 3 upward moves. Only A♭4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 25–30 must reach BmMaj7/F♯. The upper voices share 6 upward moves. Only E5 can reach the required B♭5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "FmMaj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "FmMaj7/Ab"
+        },
+        {
+          "step": 9,
+          "chord": "{C,Eb,E,Bb}"
+        },
+        {
+          "step": 13,
+          "chord": "{C,Ab,Bb,B}"
+        },
+        {
+          "step": 17,
+          "chord": "{E,G,Ab,Bb}"
+        },
+        {
+          "step": 21,
+          "chord": "{D,Eb,E,Ab}"
+        },
+        {
+          "step": 24,
+          "chord": "{C,D,E,B}"
+        },
+        {
+          "step": 30,
+          "chord": "BmMaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 87
+        },
+        {
+          "removed": 9,
+          "count": 130
+        },
+        {
+          "removed": 13,
+          "count": 69
+        },
+        {
+          "removed": 17,
+          "count": 66
+        },
+        {
+          "removed": 21,
+          "count": 34
+        },
+        {
+          "removed": 24,
+          "count": 120
+        },
+        {
+          "removed": 30,
+          "count": 313
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "title": "A shape cycle from FmMaj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          64,
+          65,
+          68
+        ],
+        [
+          47,
+          64,
+          65,
+          69
+        ],
+        [
+          46,
+          64,
+          65,
+          70
+        ],
+        [
+          45,
+          64,
+          65,
+          71
+        ],
+        [
+          44,
+          64,
+          65,
+          72
+        ],
+        [
+          43,
+          64,
+          66,
+          72
+        ],
+        [
+          42,
+          64,
+          67,
+          72
+        ],
+        [
+          41,
+          64,
+          68,
+          72
+        ],
+        [
+          40,
+          64,
+          69,
+          72
+        ],
+        [
+          39,
+          64,
+          70,
+          72
+        ],
+        [
+          38,
+          65,
+          70,
+          72
+        ],
+        [
+          37,
+          66,
+          70,
+          72
+        ],
+        [
+          36,
+          67,
+          70,
+          72
+        ],
+        [
+          35,
+          68,
+          70,
+          72
+        ],
+        [
+          34,
+          68,
+          70,
+          73
+        ],
+        [
+          33,
+          68,
+          70,
+          74
+        ],
+        [
+          32,
+          68,
+          70,
+          75
+        ],
+        [
+          31,
+          68,
+          70,
+          76
+        ],
+        [
+          30,
+          68,
+          71,
+          76
+        ],
+        [
+          29,
+          68,
+          72,
+          76
+        ],
+        [
+          28,
+          68,
+          73,
+          76
+        ],
+        [
+          27,
+          68,
+          74,
+          76
+        ],
+        [
+          26,
+          68,
+          74,
+          77
+        ],
+        [
+          25,
+          68,
+          74,
+          78
+        ],
+        [
+          24,
+          68,
+          74,
+          79
+        ],
+        [
+          23,
+          69,
+          74,
+          79
+        ],
+        [
+          22,
+          70,
+          74,
+          79
+        ],
+        [
+          21,
+          71,
+          74,
+          79
+        ],
+        [
+          20,
+          71,
+          74,
+          80
+        ],
+        [
+          19,
+          71,
+          74,
+          81
+        ],
+        [
+          18,
+          71,
+          74,
+          82
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach FmMaj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–9 must reach {C, E♭, E, B♭}. The upper voices share 5 upward moves. Only F4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 10–13 must reach {C, A♭, B♭, B}. The upper voices share 4 upward moves. Only E4 can reach the required A♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 14–17 must reach {E, G, A♭, B♭}. The upper voices share 4 upward moves. Only C5 can reach the required E5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 18–21 must reach {D, E♭, E, A♭}. The upper voices share 4 upward moves. Only B♭4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 22–24 must reach {C, D, G, A♭}. The upper voices share 3 upward moves. Only E5 can reach the required G5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 25–27 must reach {D, G, A, B}. The upper voices share 3 upward moves. Only A♭4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 28–30 must reach BmMaj7/F♯. The upper voices share 3 upward moves. Only G5 can reach the required B♭5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "FmMaj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "FmMaj7/Ab"
+        },
+        {
+          "step": 9,
+          "chord": "{C,Eb,E,Bb}"
+        },
+        {
+          "step": 13,
+          "chord": "{C,Ab,Bb,B}"
+        },
+        {
+          "step": 17,
+          "chord": "{E,G,Ab,Bb}"
+        },
+        {
+          "step": 21,
+          "chord": "{D,Eb,E,Ab}"
+        },
+        {
+          "step": 24,
+          "chord": "{C,D,G,Ab}"
+        },
+        {
+          "step": 27,
+          "chord": "{D,G,A,B}"
+        },
+        {
+          "step": 30,
+          "chord": "BmMaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 87
+        },
+        {
+          "removed": 9,
+          "count": 130
+        },
+        {
+          "removed": 13,
+          "count": 69
+        },
+        {
+          "removed": 17,
+          "count": 66
+        },
+        {
+          "removed": 21,
+          "count": 35
+        },
+        {
+          "removed": 24,
+          "count": 20
+        },
+        {
+          "removed": 27,
+          "count": 17
+        },
+        {
+          "removed": 30,
+          "count": 26
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "title": "A shape cycle from C#maj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          61,
+          65,
+          68
+        ],
+        [
+          47,
+          61,
+          65,
+          69
+        ],
+        [
+          46,
+          61,
+          65,
+          70
+        ],
+        [
+          45,
+          61,
+          65,
+          71
+        ],
+        [
+          44,
+          61,
+          65,
+          72
+        ],
+        [
+          43,
+          61,
+          66,
+          72
+        ],
+        [
+          42,
+          61,
+          67,
+          72
+        ],
+        [
+          41,
+          61,
+          68,
+          72
+        ],
+        [
+          40,
+          61,
+          69,
+          72
+        ],
+        [
+          39,
+          61,
+          70,
+          72
+        ],
+        [
+          38,
+          62,
+          70,
+          72
+        ],
+        [
+          37,
+          63,
+          70,
+          72
+        ],
+        [
+          36,
+          64,
+          70,
+          72
+        ],
+        [
+          35,
+          65,
+          70,
+          72
+        ],
+        [
+          34,
+          65,
+          70,
+          73
+        ],
+        [
+          33,
+          65,
+          70,
+          74
+        ],
+        [
+          32,
+          65,
+          70,
+          75
+        ],
+        [
+          31,
+          65,
+          70,
+          76
+        ],
+        [
+          30,
+          65,
+          71,
+          76
+        ],
+        [
+          29,
+          65,
+          72,
+          76
+        ],
+        [
+          28,
+          65,
+          73,
+          76
+        ],
+        [
+          27,
+          65,
+          74,
+          76
+        ],
+        [
+          26,
+          66,
+          74,
+          76
+        ],
+        [
+          25,
+          67,
+          74,
+          76
+        ],
+        [
+          24,
+          68,
+          74,
+          76
+        ],
+        [
+          23,
+          68,
+          74,
+          77
+        ],
+        [
+          22,
+          68,
+          74,
+          78
+        ],
+        [
+          21,
+          68,
+          74,
+          79
+        ],
+        [
+          20,
+          69,
+          74,
+          79
+        ],
+        [
+          19,
+          70,
+          74,
+          79
+        ],
+        [
+          18,
+          71,
+          74,
+          79
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach C♯maj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–9 must reach {C, C♯, E♭, B♭}. The upper voices share 5 upward moves. Only F4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 10–13 must reach {C, F, B♭, B}. The upper voices share 4 upward moves. Only C♯4 can reach the required F4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 14–17 must reach {E, F, G, B♭}. The upper voices share 4 upward moves. Only C5 can reach the required E5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 18–21 must reach {D, E♭, E, F}. The upper voices share 4 upward moves. Only B♭4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 22–24 must reach {C, D, E, A♭}. The upper voices share 3 upward moves. Only F4 can reach the required A♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 25–27 must reach {D, G, A♭, A}. The upper voices share 3 upward moves. Only E5 can reach the required G5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 28–30 must reach Gmaj7/F♯. The upper voices share 3 upward moves. Only A♭4 can reach the required B4. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "C#maj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "C#maj7/Ab"
+        },
+        {
+          "step": 9,
+          "chord": "{C,C#,Eb,Bb}"
+        },
+        {
+          "step": 13,
+          "chord": "{C,F,Bb,B}"
+        },
+        {
+          "step": 17,
+          "chord": "{E,F,G,Bb}"
+        },
+        {
+          "step": 21,
+          "chord": "{D,Eb,E,F}"
+        },
+        {
+          "step": 24,
+          "chord": "{C,D,E,Ab}"
+        },
+        {
+          "step": 27,
+          "chord": "{D,G,Ab,A}"
+        },
+        {
+          "step": 30,
+          "chord": "Gmaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 87
+        },
+        {
+          "removed": 9,
+          "count": 67
+        },
+        {
+          "removed": 13,
+          "count": 126
+        },
+        {
+          "removed": 17,
+          "count": 66
+        },
+        {
+          "removed": 21,
+          "count": 35
+        },
+        {
+          "removed": 24,
+          "count": 17
+        },
+        {
+          "removed": 27,
+          "count": 11
+        },
+        {
+          "removed": 30,
+          "count": 21
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "title": "A shape cycle from C#maj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          61,
+          65,
+          68
+        ],
+        [
+          47,
+          61,
+          65,
+          69
+        ],
+        [
+          46,
+          61,
+          65,
+          70
+        ],
+        [
+          45,
+          61,
+          65,
+          71
+        ],
+        [
+          44,
+          61,
+          65,
+          72
+        ],
+        [
+          43,
+          61,
+          66,
+          72
+        ],
+        [
+          42,
+          61,
+          67,
+          72
+        ],
+        [
+          41,
+          61,
+          68,
+          72
+        ],
+        [
+          40,
+          61,
+          69,
+          72
+        ],
+        [
+          39,
+          61,
+          70,
+          72
+        ],
+        [
+          38,
+          62,
+          70,
+          72
+        ],
+        [
+          37,
+          63,
+          70,
+          72
+        ],
+        [
+          36,
+          64,
+          70,
+          72
+        ],
+        [
+          35,
+          65,
+          70,
+          72
+        ],
+        [
+          34,
+          65,
+          70,
+          73
+        ],
+        [
+          33,
+          65,
+          70,
+          74
+        ],
+        [
+          32,
+          65,
+          70,
+          75
+        ],
+        [
+          31,
+          65,
+          71,
+          75
+        ],
+        [
+          30,
+          65,
+          72,
+          75
+        ],
+        [
+          29,
+          65,
+          73,
+          75
+        ],
+        [
+          28,
+          65,
+          74,
+          75
+        ],
+        [
+          27,
+          66,
+          74,
+          75
+        ],
+        [
+          26,
+          67,
+          74,
+          75
+        ],
+        [
+          25,
+          68,
+          74,
+          75
+        ],
+        [
+          24,
+          69,
+          74,
+          75
+        ],
+        [
+          23,
+          70,
+          74,
+          75
+        ],
+        [
+          22,
+          71,
+          74,
+          75
+        ],
+        [
+          21,
+          71,
+          74,
+          76
+        ],
+        [
+          20,
+          71,
+          74,
+          77
+        ],
+        [
+          19,
+          71,
+          74,
+          78
+        ],
+        [
+          18,
+          71,
+          74,
+          79
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach C♯maj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–9 must reach {C, C♯, E♭, B♭}. The upper voices share 5 upward moves. Only F4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 10–13 must reach {C, F, B♭, B}. The upper voices share 4 upward moves. Only C♯4 can reach the required F4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 14–16 must reach {E♭, F, A♭, B♭}. The upper voices share 3 upward moves. Only C5 can reach the required E♭5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 17–20 must reach {D, E♭, E, F}. The upper voices share 4 upward moves. Only B♭4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 21–26 must reach {D, E♭, B♭, B}. The upper voices share 6 upward moves. Only F4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 27–30 must reach Gmaj7/F♯. The upper voices share 4 upward moves. Only E♭5 can reach the required G5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "C#maj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "C#maj7/Ab"
+        },
+        {
+          "step": 9,
+          "chord": "{C,C#,Eb,Bb}"
+        },
+        {
+          "step": 13,
+          "chord": "{C,F,Bb,B}"
+        },
+        {
+          "step": 16,
+          "chord": "{Eb,F,Ab,Bb}"
+        },
+        {
+          "step": 20,
+          "chord": "{D,Eb,E,F}"
+        },
+        {
+          "step": 26,
+          "chord": "{D,Eb,Bb,B}"
+        },
+        {
+          "step": 30,
+          "chord": "Gmaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 87
+        },
+        {
+          "removed": 9,
+          "count": 67
+        },
+        {
+          "removed": 13,
+          "count": 56
+        },
+        {
+          "removed": 16,
+          "count": 56
+        },
+        {
+          "removed": 20,
+          "count": 220
+        },
+        {
+          "removed": 26,
+          "count": 201
+        },
+        {
+          "removed": 30,
+          "count": 51
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "title": "A shape cycle from C#maj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          61,
+          65,
+          68
+        ],
+        [
+          47,
+          61,
+          65,
+          69
+        ],
+        [
+          46,
+          61,
+          65,
+          70
+        ],
+        [
+          45,
+          61,
+          65,
+          71
+        ],
+        [
+          44,
+          61,
+          65,
+          72
+        ],
+        [
+          43,
+          61,
+          66,
+          72
+        ],
+        [
+          42,
+          61,
+          67,
+          72
+        ],
+        [
+          41,
+          61,
+          68,
+          72
+        ],
+        [
+          40,
+          61,
+          69,
+          72
+        ],
+        [
+          39,
+          61,
+          70,
+          72
+        ],
+        [
+          38,
+          62,
+          70,
+          72
+        ],
+        [
+          37,
+          63,
+          70,
+          72
+        ],
+        [
+          36,
+          64,
+          70,
+          72
+        ],
+        [
+          35,
+          65,
+          70,
+          72
+        ],
+        [
+          34,
+          65,
+          70,
+          73
+        ],
+        [
+          33,
+          65,
+          70,
+          74
+        ],
+        [
+          32,
+          65,
+          70,
+          75
+        ],
+        [
+          31,
+          65,
+          71,
+          75
+        ],
+        [
+          30,
+          65,
+          72,
+          75
+        ],
+        [
+          29,
+          65,
+          73,
+          75
+        ],
+        [
+          28,
+          65,
+          74,
+          75
+        ],
+        [
+          27,
+          66,
+          74,
+          75
+        ],
+        [
+          26,
+          67,
+          74,
+          75
+        ],
+        [
+          25,
+          68,
+          74,
+          75
+        ],
+        [
+          24,
+          68,
+          74,
+          76
+        ],
+        [
+          23,
+          68,
+          74,
+          77
+        ],
+        [
+          22,
+          68,
+          74,
+          78
+        ],
+        [
+          21,
+          68,
+          74,
+          79
+        ],
+        [
+          20,
+          69,
+          74,
+          79
+        ],
+        [
+          19,
+          70,
+          74,
+          79
+        ],
+        [
+          18,
+          71,
+          74,
+          79
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach C♯maj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–9 must reach {C, C♯, E♭, B♭}. The upper voices share 5 upward moves. Only F4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 10–13 must reach {C, F, B♭, B}. The upper voices share 4 upward moves. Only C♯4 can reach the required F4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 14–16 must reach {E♭, F, A♭, B♭}. The upper voices share 3 upward moves. Only C5 can reach the required E♭5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 17–20 must reach {D, E♭, E, F}. The upper voices share 4 upward moves. Only B♭4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 21–23 must reach {C♯, D, E♭, A♭}. The upper voices share 3 upward moves. Only F4 can reach the required A♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 24–27 must reach {D, G, A♭, A}. The upper voices share 4 upward moves. Only E♭5 can reach the required G5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 28–30 must reach Gmaj7/F♯. The upper voices share 3 upward moves. Only A♭4 can reach the required B4. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "C#maj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "C#maj7/Ab"
+        },
+        {
+          "step": 9,
+          "chord": "{C,C#,Eb,Bb}"
+        },
+        {
+          "step": 13,
+          "chord": "{C,F,Bb,B}"
+        },
+        {
+          "step": 16,
+          "chord": "{Eb,F,Ab,Bb}"
+        },
+        {
+          "step": 20,
+          "chord": "{D,Eb,E,F}"
+        },
+        {
+          "step": 23,
+          "chord": "{C#,D,Eb,Ab}"
+        },
+        {
+          "step": 27,
+          "chord": "{D,G,Ab,A}"
+        },
+        {
+          "step": 30,
+          "chord": "Gmaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 87
+        },
+        {
+          "removed": 9,
+          "count": 67
+        },
+        {
+          "removed": 13,
+          "count": 56
+        },
+        {
+          "removed": 16,
+          "count": 56
+        },
+        {
+          "removed": 20,
+          "count": 35
+        },
+        {
+          "removed": 23,
+          "count": 56
+        },
+        {
+          "removed": 27,
+          "count": 23
+        },
+        {
+          "removed": 30,
+          "count": 21
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "title": "A shape cycle from C#maj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          61,
+          65,
+          68
+        ],
+        [
+          47,
+          61,
+          65,
+          69
+        ],
+        [
+          46,
+          61,
+          65,
+          70
+        ],
+        [
+          45,
+          61,
+          65,
+          71
+        ],
+        [
+          44,
+          61,
+          65,
+          72
+        ],
+        [
+          43,
+          61,
+          66,
+          72
+        ],
+        [
+          42,
+          61,
+          67,
+          72
+        ],
+        [
+          41,
+          61,
+          68,
+          72
+        ],
+        [
+          40,
+          61,
+          69,
+          72
+        ],
+        [
+          39,
+          61,
+          70,
+          72
+        ],
+        [
+          38,
+          62,
+          70,
+          72
+        ],
+        [
+          37,
+          63,
+          70,
+          72
+        ],
+        [
+          36,
+          64,
+          70,
+          72
+        ],
+        [
+          35,
+          65,
+          70,
+          72
+        ],
+        [
+          34,
+          65,
+          70,
+          73
+        ],
+        [
+          33,
+          65,
+          70,
+          74
+        ],
+        [
+          32,
+          65,
+          70,
+          75
+        ],
+        [
+          31,
+          66,
+          70,
+          75
+        ],
+        [
+          30,
+          67,
+          70,
+          75
+        ],
+        [
+          29,
+          68,
+          70,
+          75
+        ],
+        [
+          28,
+          68,
+          70,
+          76
+        ],
+        [
+          27,
+          68,
+          70,
+          77
+        ],
+        [
+          26,
+          68,
+          70,
+          78
+        ],
+        [
+          25,
+          68,
+          70,
+          79
+        ],
+        [
+          24,
+          68,
+          71,
+          79
+        ],
+        [
+          23,
+          68,
+          72,
+          79
+        ],
+        [
+          22,
+          68,
+          73,
+          79
+        ],
+        [
+          21,
+          68,
+          74,
+          79
+        ],
+        [
+          20,
+          69,
+          74,
+          79
+        ],
+        [
+          19,
+          70,
+          74,
+          79
+        ],
+        [
+          18,
+          71,
+          74,
+          79
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach C♯maj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–9 must reach {C, C♯, E♭, B♭}. The upper voices share 5 upward moves. Only F4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 10–13 must reach {C, F, B♭, B}. The upper voices share 4 upward moves. Only C♯4 can reach the required F4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 14–16 must reach {E♭, F, A♭, B♭}. The upper voices share 3 upward moves. Only C5 can reach the required E♭5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 17–19 must reach {E♭, F, A♭, B♭}. The upper voices share 3 upward moves. Only F4 can reach the required A♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 20–23 must reach {C♯, G, A♭, B♭}. The upper voices share 4 upward moves. Only E♭5 can reach the required G5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 24–27 must reach {D, G, A♭, A}. The upper voices share 4 upward moves. Only B♭4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 28–30 must reach Gmaj7/F♯. The upper voices share 3 upward moves. Only A♭4 can reach the required B4. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "C#maj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "C#maj7/Ab"
+        },
+        {
+          "step": 9,
+          "chord": "{C,C#,Eb,Bb}"
+        },
+        {
+          "step": 13,
+          "chord": "{C,F,Bb,B}"
+        },
+        {
+          "step": 16,
+          "chord": "{Eb,F,Ab,Bb}"
+        },
+        {
+          "step": 19,
+          "chord": "{Eb,F,Ab,Bb}"
+        },
+        {
+          "step": 23,
+          "chord": "{C#,G,Ab,Bb}"
+        },
+        {
+          "step": 27,
+          "chord": "{D,G,Ab,A}"
+        },
+        {
+          "step": 30,
+          "chord": "Gmaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 87
+        },
+        {
+          "removed": 9,
+          "count": 67
+        },
+        {
+          "removed": 13,
+          "count": 56
+        },
+        {
+          "removed": 16,
+          "count": 19
+        },
+        {
+          "removed": 19,
+          "count": 16
+        },
+        {
+          "removed": 23,
+          "count": 54
+        },
+        {
+          "removed": 27,
+          "count": 22
+        },
+        {
+          "removed": 30,
+          "count": 21
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "title": "A shape cycle from C#maj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          61,
+          65,
+          68
+        ],
+        [
+          47,
+          61,
+          65,
+          69
+        ],
+        [
+          46,
+          61,
+          65,
+          70
+        ],
+        [
+          45,
+          61,
+          65,
+          71
+        ],
+        [
+          44,
+          61,
+          65,
+          72
+        ],
+        [
+          43,
+          61,
+          66,
+          72
+        ],
+        [
+          42,
+          61,
+          67,
+          72
+        ],
+        [
+          41,
+          61,
+          68,
+          72
+        ],
+        [
+          40,
+          61,
+          69,
+          72
+        ],
+        [
+          39,
+          61,
+          70,
+          72
+        ],
+        [
+          38,
+          62,
+          70,
+          72
+        ],
+        [
+          37,
+          63,
+          70,
+          72
+        ],
+        [
+          36,
+          64,
+          70,
+          72
+        ],
+        [
+          35,
+          65,
+          70,
+          72
+        ],
+        [
+          34,
+          65,
+          70,
+          73
+        ],
+        [
+          33,
+          65,
+          70,
+          74
+        ],
+        [
+          32,
+          65,
+          70,
+          75
+        ],
+        [
+          31,
+          66,
+          70,
+          75
+        ],
+        [
+          30,
+          67,
+          70,
+          75
+        ],
+        [
+          29,
+          68,
+          70,
+          75
+        ],
+        [
+          28,
+          68,
+          71,
+          75
+        ],
+        [
+          27,
+          68,
+          72,
+          75
+        ],
+        [
+          26,
+          68,
+          73,
+          75
+        ],
+        [
+          25,
+          68,
+          74,
+          75
+        ],
+        [
+          24,
+          68,
+          74,
+          76
+        ],
+        [
+          23,
+          68,
+          74,
+          77
+        ],
+        [
+          22,
+          68,
+          74,
+          78
+        ],
+        [
+          21,
+          68,
+          74,
+          79
+        ],
+        [
+          20,
+          69,
+          74,
+          79
+        ],
+        [
+          19,
+          70,
+          74,
+          79
+        ],
+        [
+          18,
+          71,
+          74,
+          79
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach C♯maj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–9 must reach {C, C♯, E♭, B♭}. The upper voices share 5 upward moves. Only F4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 10–13 must reach {C, F, B♭, B}. The upper voices share 4 upward moves. Only C♯4 can reach the required F4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 14–16 must reach {E♭, F, A♭, B♭}. The upper voices share 3 upward moves. Only C5 can reach the required E♭5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 17–19 must reach {E♭, F, A♭, B♭}. The upper voices share 3 upward moves. Only F4 can reach the required A♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 20–23 must reach {C♯, D, E♭, A♭}. The upper voices share 4 upward moves. Only B♭4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 24–27 must reach {D, G, A♭, A}. The upper voices share 4 upward moves. Only E♭5 can reach the required G5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 28–30 must reach Gmaj7/F♯. The upper voices share 3 upward moves. Only A♭4 can reach the required B4. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "C#maj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "C#maj7/Ab"
+        },
+        {
+          "step": 9,
+          "chord": "{C,C#,Eb,Bb}"
+        },
+        {
+          "step": 13,
+          "chord": "{C,F,Bb,B}"
+        },
+        {
+          "step": 16,
+          "chord": "{Eb,F,Ab,Bb}"
+        },
+        {
+          "step": 19,
+          "chord": "{Eb,F,Ab,Bb}"
+        },
+        {
+          "step": 23,
+          "chord": "{C#,D,Eb,Ab}"
+        },
+        {
+          "step": 27,
+          "chord": "{D,G,Ab,A}"
+        },
+        {
+          "step": 30,
+          "chord": "Gmaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 87
+        },
+        {
+          "removed": 9,
+          "count": 67
+        },
+        {
+          "removed": 13,
+          "count": 56
+        },
+        {
+          "removed": 16,
+          "count": 19
+        },
+        {
+          "removed": 19,
+          "count": 31
+        },
+        {
+          "removed": 23,
+          "count": 54
+        },
+        {
+          "removed": 27,
+          "count": 23
+        },
+        {
+          "removed": 30,
+          "count": 21
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "title": "A shape cycle from C#maj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          61,
+          65,
+          68
+        ],
+        [
+          47,
+          61,
+          65,
+          69
+        ],
+        [
+          46,
+          61,
+          65,
+          70
+        ],
+        [
+          45,
+          61,
+          65,
+          71
+        ],
+        [
+          44,
+          61,
+          65,
+          72
+        ],
+        [
+          43,
+          61,
+          66,
+          72
+        ],
+        [
+          42,
+          61,
+          67,
+          72
+        ],
+        [
+          41,
+          61,
+          68,
+          72
+        ],
+        [
+          40,
+          61,
+          69,
+          72
+        ],
+        [
+          39,
+          61,
+          70,
+          72
+        ],
+        [
+          38,
+          62,
+          70,
+          72
+        ],
+        [
+          37,
+          63,
+          70,
+          72
+        ],
+        [
+          36,
+          64,
+          70,
+          72
+        ],
+        [
+          35,
+          65,
+          70,
+          72
+        ],
+        [
+          34,
+          65,
+          70,
+          73
+        ],
+        [
+          33,
+          65,
+          70,
+          74
+        ],
+        [
+          32,
+          65,
+          70,
+          75
+        ],
+        [
+          31,
+          66,
+          70,
+          75
+        ],
+        [
+          30,
+          67,
+          70,
+          75
+        ],
+        [
+          29,
+          68,
+          70,
+          75
+        ],
+        [
+          28,
+          68,
+          71,
+          75
+        ],
+        [
+          27,
+          68,
+          72,
+          75
+        ],
+        [
+          26,
+          68,
+          73,
+          75
+        ],
+        [
+          25,
+          68,
+          74,
+          75
+        ],
+        [
+          24,
+          69,
+          74,
+          75
+        ],
+        [
+          23,
+          70,
+          74,
+          75
+        ],
+        [
+          22,
+          71,
+          74,
+          75
+        ],
+        [
+          21,
+          71,
+          74,
+          76
+        ],
+        [
+          20,
+          71,
+          74,
+          77
+        ],
+        [
+          19,
+          71,
+          74,
+          78
+        ],
+        [
+          18,
+          71,
+          74,
+          79
+        ]
+      ],
+      "count": 1,
+      "total": 205891132094649,
+      "question": "Can a 30-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "explanation": [
+        "Moves 1–4 must reach C♯maj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–9 must reach {C, C♯, E♭, B♭}. The upper voices share 5 upward moves. Only F4 can reach the required B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 10–13 must reach {C, F, B♭, B}. The upper voices share 4 upward moves. Only C♯4 can reach the required F4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 14–16 must reach {E♭, F, A♭, B♭}. The upper voices share 3 upward moves. Only C5 can reach the required E♭5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 17–19 must reach {E♭, F, A♭, B♭}. The upper voices share 3 upward moves. Only F4 can reach the required A♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 20–23 must reach {C♯, D, E♭, A♭}. The upper voices share 4 upward moves. Only B♭4 can reach the required D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 24–26 must reach {D, E♭, B♭, B}. The upper voices share 3 upward moves. Only A♭4 can reach the required B4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 27–30 must reach Gmaj7/F♯. The upper voices share 4 upward moves. Only E♭5 can reach the required G5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "C#maj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "C#maj7/Ab"
+        },
+        {
+          "step": 9,
+          "chord": "{C,C#,Eb,Bb}"
+        },
+        {
+          "step": 13,
+          "chord": "{C,F,Bb,B}"
+        },
+        {
+          "step": 16,
+          "chord": "{Eb,F,Ab,Bb}"
+        },
+        {
+          "step": 19,
+          "chord": "{Eb,F,Ab,Bb}"
+        },
+        {
+          "step": 23,
+          "chord": "{C#,D,Eb,Ab}"
+        },
+        {
+          "step": 26,
+          "chord": "{D,Eb,Bb,B}"
+        },
+        {
+          "step": 30,
+          "chord": "Gmaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 87
+        },
+        {
+          "removed": 9,
+          "count": 67
+        },
+        {
+          "removed": 13,
+          "count": 56
+        },
+        {
+          "removed": 16,
+          "count": 19
+        },
+        {
+          "removed": 19,
+          "count": 31
+        },
+        {
+          "removed": 23,
+          "count": 22
+        },
+        {
+          "removed": 26,
+          "count": 23
+        },
+        {
+          "removed": 30,
+          "count": 51
+        }
+      ]
+    },
     {
       "id": 231,
       "title": "A shape cycle from FmMaj7/C",
@@ -57459,5 +62382,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-11-26T21:29:21+00:00"
+  "publishedAt": "2026-11-26T21:43:16+00:00"
 }

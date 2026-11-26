@@ -222,13 +222,14 @@ function card(result) {
     ? `From the archive · ${result.evidence}` : result.evidence;
   article.querySelector('.question').textContent = displayChord(result.question);
   const hasExplanation = Boolean(result.explanation?.length);
-  const scope = result.archived || hasExplanation ? '' : ' Each marked chord has four distinct pitch classes.';
+  const scope = result.archived || result.slug ? '' : ' Each marked chord has four distinct pitch classes.';
   article.querySelector('.answer').textContent =
     `${formatCount(result.count)} of ${formatCount(result.total)} possible move orders satisfies the marked checkpoints.${scope}`;
 
   const explanation = article.querySelector('.explanation');
   if (hasExplanation) {
     explanation.hidden = false;
+    explanation.open = Boolean(result.slug);
     for (const text of result.explanation) {
       const paragraph = document.createElement('p');
       paragraph.textContent = text;
@@ -236,9 +237,9 @@ function card(result) {
     }
   }
 
-  const details = article.querySelector('details');
+  const details = article.querySelector('.relaxations');
   details.hidden = result.relaxations.length === 0;
-  details.open = hasExplanation && !details.hidden;
+  details.open = Boolean(result.slug) && !details.hidden;
   if (!result.archived) {
     article.querySelector('.relaxation-rule').textContent =
       'At the omitted checkpoint, any chord with four distinct pitch classes is allowed.';

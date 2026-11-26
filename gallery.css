@@ -84,10 +84,9 @@ canvas { display: block; }
 .question { margin: 0 0 .4rem; }
 .answer { color: var(--muted); margin: 0; }
 .explanation { margin-top: 1rem; }
-.explanation h3 { font-size: 1rem; margin: 0 0 .4rem; }
 .explanation p { margin: .4rem 0 0; }
 .relaxations { border-top: 1px solid #dce5df; margin-top: 1rem; padding-top: .75rem; }
-.relaxations summary { cursor: pointer; color: var(--accent); font-weight: 600; }
+.explanation summary, .relaxations summary { cursor: pointer; color: var(--accent); font-weight: 600; }
 .relaxation-rule { color: var(--muted); margin: .6rem 0; }
 dl { display: grid; grid-template-columns: max-content auto; gap: .25rem 1rem; margin: .6rem 0 0; }
 dd { margin: 0; font-variant-numeric: tabular-nums; }

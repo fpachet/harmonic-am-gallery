@@ -1,0 +1,953 @@
+{
+  "completed": 105,
+  "total": null,
+  "error": false,
+  "results": [
+    {
+      "id": 9,
+      "title": "A shape cycle from CmMaj7",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          63,
+          67,
+          71
+        ],
+        [
+          47,
+          63,
+          67,
+          72
+        ],
+        [
+          46,
+          63,
+          67,
+          73
+        ],
+        [
+          45,
+          63,
+          67,
+          74
+        ],
+        [
+          44,
+          63,
+          68,
+          74
+        ],
+        [
+          43,
+          63,
+          69,
+          74
+        ],
+        [
+          42,
+          63,
+          70,
+          74
+        ],
+        [
+          41,
+          64,
+          70,
+          74
+        ],
+        [
+          40,
+          65,
+          70,
+          74
+        ],
+        [
+          39,
+          66,
+          70,
+          74
+        ]
+      ],
+      "count": 1,
+      "total": 19683,
+      "question": "Can a 9-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "CmMaj7"
+        },
+        {
+          "step": 3,
+          "chord": "{D,Eb,G,A}"
+        },
+        {
+          "step": 6,
+          "chord": "EbmMaj7/F#"
+        },
+        {
+          "step": 9,
+          "chord": "EbmMaj7"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 3,
+          "count": 11
+        },
+        {
+          "removed": 6,
+          "count": 19
+        },
+        {
+          "removed": 9,
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "A shape cycle from CmMaj7",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          63,
+          67,
+          71
+        ],
+        [
+          47,
+          63,
+          68,
+          71
+        ],
+        [
+          46,
+          63,
+          69,
+          71
+        ],
+        [
+          45,
+          63,
+          70,
+          71
+        ],
+        [
+          44,
+          63,
+          70,
+          72
+        ],
+        [
+          43,
+          63,
+          70,
+          73
+        ],
+        [
+          42,
+          63,
+          70,
+          74
+        ],
+        [
+          41,
+          64,
+          70,
+          74
+        ],
+        [
+          40,
+          65,
+          70,
+          74
+        ],
+        [
+          39,
+          66,
+          70,
+          74
+        ]
+      ],
+      "count": 1,
+      "total": 19683,
+      "question": "Can a 9-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "CmMaj7"
+        },
+        {
+          "step": 3,
+          "chord": "{Eb,A,Bb,B}"
+        },
+        {
+          "step": 6,
+          "chord": "EbmMaj7/F#"
+        },
+        {
+          "step": 9,
+          "chord": "EbmMaj7"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 3,
+          "count": 11
+        },
+        {
+          "removed": 6,
+          "count": 19
+        },
+        {
+          "removed": 9,
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "A shape cycle from Cm7",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          63,
+          67,
+          70
+        ],
+        [
+          47,
+          63,
+          67,
+          71
+        ],
+        [
+          46,
+          63,
+          67,
+          72
+        ],
+        [
+          45,
+          63,
+          67,
+          73
+        ],
+        [
+          44,
+          63,
+          68,
+          73
+        ],
+        [
+          43,
+          63,
+          69,
+          73
+        ],
+        [
+          42,
+          63,
+          70,
+          73
+        ],
+        [
+          41,
+          64,
+          70,
+          73
+        ],
+        [
+          40,
+          65,
+          70,
+          73
+        ],
+        [
+          39,
+          66,
+          70,
+          73
+        ]
+      ],
+      "count": 1,
+      "total": 19683,
+      "question": "Can a 9-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Cm7"
+        },
+        {
+          "step": 3,
+          "chord": "{C#,Eb,G,A}"
+        },
+        {
+          "step": 6,
+          "chord": "Ebm7/F#"
+        },
+        {
+          "step": 9,
+          "chord": "Ebm7"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 3,
+          "count": 10
+        },
+        {
+          "removed": 6,
+          "count": 19
+        },
+        {
+          "removed": 9,
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "A shape cycle from Abmaj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          63,
+          67,
+          68
+        ],
+        [
+          47,
+          63,
+          67,
+          69
+        ],
+        [
+          46,
+          63,
+          67,
+          70
+        ],
+        [
+          45,
+          63,
+          67,
+          71
+        ],
+        [
+          44,
+          63,
+          68,
+          71
+        ],
+        [
+          43,
+          63,
+          69,
+          71
+        ],
+        [
+          42,
+          63,
+          70,
+          71
+        ],
+        [
+          41,
+          64,
+          70,
+          71
+        ],
+        [
+          40,
+          65,
+          70,
+          71
+        ],
+        [
+          39,
+          66,
+          70,
+          71
+        ]
+      ],
+      "count": 1,
+      "total": 19683,
+      "question": "Can a 9-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Abmaj7/C"
+        },
+        {
+          "step": 3,
+          "chord": "{Eb,G,A,B}"
+        },
+        {
+          "step": 6,
+          "chord": "Bmaj7/F#"
+        },
+        {
+          "step": 9,
+          "chord": "Bmaj7/Eb"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 3,
+          "count": 17
+        },
+        {
+          "removed": 6,
+          "count": 19
+        },
+        {
+          "removed": 9,
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "A shape cycle from Cm7b5",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          63,
+          66,
+          70
+        ],
+        [
+          47,
+          63,
+          66,
+          71
+        ],
+        [
+          46,
+          63,
+          66,
+          72
+        ],
+        [
+          45,
+          63,
+          66,
+          73
+        ],
+        [
+          44,
+          63,
+          67,
+          73
+        ],
+        [
+          43,
+          63,
+          68,
+          73
+        ],
+        [
+          42,
+          63,
+          69,
+          73
+        ],
+        [
+          41,
+          64,
+          69,
+          73
+        ],
+        [
+          40,
+          65,
+          69,
+          73
+        ],
+        [
+          39,
+          66,
+          69,
+          73
+        ]
+      ],
+      "count": 1,
+      "total": 19683,
+      "question": "Can a 9-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Cm7b5"
+        },
+        {
+          "step": 3,
+          "chord": "Ebm7b5/A"
+        },
+        {
+          "step": 6,
+          "chord": "Ebm7b5/F#"
+        },
+        {
+          "step": 9,
+          "chord": "Ebm7b5"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 3,
+          "count": 19
+        },
+        {
+          "removed": 6,
+          "count": 19
+        },
+        {
+          "removed": 9,
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "A shape cycle from D7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          62,
+          66,
+          69
+        ],
+        [
+          47,
+          62,
+          66,
+          70
+        ],
+        [
+          46,
+          62,
+          66,
+          71
+        ],
+        [
+          45,
+          62,
+          66,
+          72
+        ],
+        [
+          44,
+          62,
+          67,
+          72
+        ],
+        [
+          43,
+          62,
+          68,
+          72
+        ],
+        [
+          42,
+          62,
+          69,
+          72
+        ],
+        [
+          41,
+          63,
+          69,
+          72
+        ],
+        [
+          40,
+          64,
+          69,
+          72
+        ],
+        [
+          39,
+          65,
+          69,
+          72
+        ]
+      ],
+      "count": 1,
+      "total": 19683,
+      "question": "Can a 9-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "D7/C"
+        },
+        {
+          "step": 3,
+          "chord": "D7/A"
+        },
+        {
+          "step": 6,
+          "chord": "D7/F#"
+        },
+        {
+          "step": 9,
+          "chord": "F7/Eb"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 3,
+          "count": 19
+        },
+        {
+          "removed": 6,
+          "count": 19
+        },
+        {
+          "removed": 9,
+          "count": 10
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "A shape cycle from Dm7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          62,
+          65,
+          69
+        ],
+        [
+          47,
+          62,
+          65,
+          70
+        ],
+        [
+          46,
+          62,
+          65,
+          71
+        ],
+        [
+          45,
+          62,
+          65,
+          72
+        ],
+        [
+          44,
+          62,
+          66,
+          72
+        ],
+        [
+          43,
+          62,
+          67,
+          72
+        ],
+        [
+          42,
+          62,
+          68,
+          72
+        ],
+        [
+          41,
+          63,
+          68,
+          72
+        ],
+        [
+          40,
+          64,
+          68,
+          72
+        ],
+        [
+          39,
+          65,
+          68,
+          72
+        ]
+      ],
+      "count": 1,
+      "total": 19683,
+      "question": "Can a 9-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Dm7/C"
+        },
+        {
+          "step": 3,
+          "chord": "Dm7/A"
+        },
+        {
+          "step": 6,
+          "chord": "{C,D,F#,Ab}"
+        },
+        {
+          "step": 9,
+          "chord": "Fm7/Eb"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 3,
+          "count": 19
+        },
+        {
+          "removed": 6,
+          "count": 10
+        },
+        {
+          "removed": 9,
+          "count": 11
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The minor-triad cycle",
+      "evidence": "Lean-checked count",
+      "archived": true,
+      "frames": [
+        [
+          48,
+          63,
+          67
+        ],
+        [
+          47,
+          63,
+          68
+        ],
+        [
+          46,
+          63,
+          69
+        ],
+        [
+          45,
+          63,
+          70
+        ],
+        [
+          44,
+          63,
+          71
+        ],
+        [
+          43,
+          64,
+          71
+        ],
+        [
+          42,
+          65,
+          71
+        ],
+        [
+          41,
+          66,
+          71
+        ],
+        [
+          40,
+          67,
+          71
+        ],
+        [
+          39,
+          67,
+          72
+        ],
+        [
+          38,
+          67,
+          73
+        ],
+        [
+          37,
+          67,
+          74
+        ],
+        [
+          36,
+          67,
+          75
+        ]
+      ],
+      "count": 1,
+      "total": 4096,
+      "question": "Which 12-move path recovers the starting minor-triad shape after moves 4, 8 and 12?",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Cm"
+        },
+        {
+          "step": 4,
+          "chord": "Abm"
+        },
+        {
+          "step": 8,
+          "chord": "Em"
+        },
+        {
+          "step": 12,
+          "chord": "Cm"
+        }
+      ],
+      "relaxations": []
+    },
+    {
+      "id": 1,
+      "title": "The Omnibus",
+      "evidence": "Lean-checked count",
+      "archived": true,
+      "frames": [
+        [
+          48,
+          64,
+          67,
+          70
+        ],
+        [
+          47,
+          64,
+          67,
+          71
+        ],
+        [
+          46,
+          64,
+          67,
+          72
+        ],
+        [
+          45,
+          64,
+          67,
+          73
+        ],
+        [
+          44,
+          64,
+          68,
+          73
+        ],
+        [
+          43,
+          64,
+          69,
+          73
+        ],
+        [
+          42,
+          64,
+          70,
+          73
+        ],
+        [
+          41,
+          65,
+          70,
+          73
+        ],
+        [
+          40,
+          66,
+          70,
+          73
+        ],
+        [
+          39,
+          67,
+          70,
+          73
+        ],
+        [
+          38,
+          67,
+          70,
+          74
+        ],
+        [
+          37,
+          67,
+          70,
+          75
+        ],
+        [
+          36,
+          67,
+          70,
+          76
+        ]
+      ],
+      "count": 1,
+      "total": 531441,
+      "question": "Which 12-move path recovers the starting dominant-seventh shape after moves 3, 6, 9 and 12?",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "C7"
+        },
+        {
+          "step": 3,
+          "chord": "A7"
+        },
+        {
+          "step": 6,
+          "chord": "F#7"
+        },
+        {
+          "step": 9,
+          "chord": "Eb7"
+        },
+        {
+          "step": 12,
+          "chord": "C7"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 3,
+          "count": 21
+        },
+        {
+          "removed": 6,
+          "count": 21
+        },
+        {
+          "removed": 9,
+          "count": 21
+        },
+        {
+          "removed": 12,
+          "count": 27
+        }
+      ]
+    }
+  ],
+  "publishedAt": "2026-11-26T16:28:36+00:00"
+}

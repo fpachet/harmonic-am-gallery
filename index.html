@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="gallery-feed" content="./results.json">
+  <title>Sequence Library · Harmonic-AM</title>
+  <link rel="stylesheet" href="./gallery.css">
+  <script src="./gallery.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <span class="brand">Harmonic-AM</span>
+      <span id="status" role="status">Opening the search library</span>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="intro" aria-labelledby="page-title">
+      <h1 id="page-title">Sequence Library</h1>
+      <p>Listen to paths found by exact voice-leading searches. Each move lowers the bass by a semitone and raises one upper voice by a semitone.</p>
+      <div class="progress">
+        <div><strong id="result-count">0 sequences</strong><span id="search-progress"></span></div>
+        <progress id="progress-bar" aria-label="Search progress" hidden></progress>
+        <time id="published-at" hidden></time>
+      </div>
+    </section>
+    <section id="results" aria-label="Sequence results"></section>
+    <button id="show-more" type="button" hidden>Show more sequences</button>
+    <p id="playback-error" role="alert" hidden></p>
+  </main>
+  <template id="result-template">
+    <article class="result">
+      <header class="result-header">
+        <div>
+          <div class="evidence"></div>
+          <h2></h2>
+        </div>
+        <button class="play" type="button">▶ Play</button>
+      </header>
+      <div class="score" tabindex="0" role="region" aria-label="Scrollable score"><canvas role="img"></canvas></div>
+      <p class="question"></p>
+      <p class="answer"></p>
+      <details class="relaxations">
+        <summary>What changes when a checkpoint is removed?</summary>
+        <p class="relaxation-rule"></p>
+        <dl></dl>
+      </details>
+    </article>
+  </template>
+</body>
+</html>

@@ -4,6 +4,7 @@ const status = document.querySelector('#status');
 const searchProgress = document.querySelector('#search-progress');
 const progressBar = document.querySelector('#progress-bar');
 const number = new Intl.NumberFormat();
+const formatCount = value => number.format(typeof value === 'string' ? BigInt(value) : value);
 const feed = document.querySelector('meta[name="gallery-feed"]').content;
 const hosted = feed.endsWith('.json');
 const publishedAt = document.querySelector('#published-at');
@@ -16,7 +17,7 @@ const spellings = ['C', 'C♯', 'D', 'E♭', 'E', 'F', 'F♯', 'G', 'A♭', 'A',
 const letters = 'CDEFGAB';
 const pitchName = pitch => spellings[pitch % 12] + (Math.floor(pitch / 12) - 1);
 const displayChord = text => text.replace(/([A-G])#/g, '$1♯')
-  .replace(/([A-G])b/g, '$1♭').replace(/,/g, ', ');
+  .replace(/([A-G])b/g, '$1♭').replace(/,(?!\s)/g, ', ');
 const diatonic = pitch => 7 * (Math.floor(pitch / 12) - 1) + letters.indexOf(spellings[pitch % 12][0]);
 
 function renderScore(canvas, result) {
@@ -215,10 +216,10 @@ function card(result) {
   article.querySelector('h2').textContent = title;
   article.querySelector('.evidence').textContent = result.archived
     ? `From the archive · ${result.evidence}` : result.evidence;
-  article.querySelector('.question').textContent = result.question;
+  article.querySelector('.question').textContent = displayChord(result.question);
   const scope = result.archived ? '' : ' Each marked chord has four distinct pitch classes.';
   article.querySelector('.answer').textContent =
-    `${number.format(result.count)} of ${number.format(result.total)} possible move orders satisfies the marked checkpoints.${scope}`;
+    `${formatCount(result.count)} of ${formatCount(result.total)} possible move orders satisfies the marked checkpoints.${scope}`;
 
   const details = article.querySelector('details');
   details.hidden = result.relaxations.length === 0;
@@ -233,7 +234,7 @@ function card(result) {
     const point = document.createElement('dt');
     const count = document.createElement('dd');
     point.textContent = `Move ${change.removed}`;
-    count.textContent = `${number.format(change.count)} paths`;
+    count.textContent = `${formatCount(change.count)} paths`;
     list.append(point, count);
   }
 
@@ -292,6 +293,8 @@ async function refresh() {
       progressBar.max = library.total;
       progressBar.value = library.completed;
       progressBar.hidden = hosted || finished || library.error;
+    } else if (library.generated) {
+      searchProgress.textContent = `${number.format(library.generated)} generated questions tested · ${number.format(library.completed)} jobs total`;
     } else if (hosted) {
       searchProgress.textContent = `${number.format(library.completed)} search jobs complete`;
     }

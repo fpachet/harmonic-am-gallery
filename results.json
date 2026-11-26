@@ -1,8 +1,668 @@
 {
-  "completed": 161,
+  "completed": 1780,
   "total": 130410,
   "error": false,
   "results": [
+    {
+      "id": 13,
+      "title": "A shape cycle from CmMaj7",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          63,
+          67,
+          71
+        ],
+        [
+          47,
+          64,
+          67,
+          71
+        ],
+        [
+          46,
+          65,
+          67,
+          71
+        ],
+        [
+          45,
+          66,
+          67,
+          71
+        ],
+        [
+          44,
+          66,
+          67,
+          72
+        ],
+        [
+          43,
+          66,
+          67,
+          73
+        ],
+        [
+          42,
+          66,
+          67,
+          74
+        ],
+        [
+          41,
+          66,
+          67,
+          75
+        ],
+        [
+          40,
+          66,
+          67,
+          76
+        ],
+        [
+          39,
+          66,
+          67,
+          77
+        ],
+        [
+          38,
+          66,
+          68,
+          77
+        ],
+        [
+          37,
+          66,
+          69,
+          77
+        ],
+        [
+          36,
+          66,
+          70,
+          77
+        ],
+        [
+          35,
+          66,
+          71,
+          77
+        ],
+        [
+          34,
+          66,
+          72,
+          77
+        ],
+        [
+          33,
+          66,
+          73,
+          77
+        ],
+        [
+          32,
+          67,
+          73,
+          77
+        ],
+        [
+          31,
+          68,
+          73,
+          77
+        ],
+        [
+          30,
+          69,
+          73,
+          77
+        ]
+      ],
+      "count": 1,
+      "total": 387420489,
+      "question": "Can a 18-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "CmMaj7"
+        },
+        {
+          "step": 3,
+          "chord": "{F#,G,A,B}"
+        },
+        {
+          "step": 9,
+          "chord": "{Eb,F,F#,G}"
+        },
+        {
+          "step": 15,
+          "chord": "F#mMaj7/A"
+        },
+        {
+          "step": 18,
+          "chord": "F#mMaj7"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 3,
+          "count": 120
+        },
+        {
+          "removed": 9,
+          "count": 693
+        },
+        {
+          "removed": 15,
+          "count": 85
+        },
+        {
+          "removed": 18,
+          "count": 7
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "A shape cycle from Cm7",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          63,
+          67,
+          70
+        ],
+        [
+          47,
+          64,
+          67,
+          70
+        ],
+        [
+          46,
+          65,
+          67,
+          70
+        ],
+        [
+          45,
+          66,
+          67,
+          70
+        ],
+        [
+          44,
+          66,
+          67,
+          71
+        ],
+        [
+          43,
+          66,
+          67,
+          72
+        ],
+        [
+          42,
+          66,
+          67,
+          73
+        ],
+        [
+          41,
+          66,
+          67,
+          74
+        ],
+        [
+          40,
+          66,
+          67,
+          75
+        ],
+        [
+          39,
+          66,
+          67,
+          76
+        ],
+        [
+          38,
+          66,
+          68,
+          76
+        ],
+        [
+          37,
+          66,
+          69,
+          76
+        ],
+        [
+          36,
+          66,
+          70,
+          76
+        ],
+        [
+          35,
+          66,
+          71,
+          76
+        ],
+        [
+          34,
+          66,
+          72,
+          76
+        ],
+        [
+          33,
+          66,
+          73,
+          76
+        ],
+        [
+          32,
+          67,
+          73,
+          76
+        ],
+        [
+          31,
+          68,
+          73,
+          76
+        ],
+        [
+          30,
+          69,
+          73,
+          76
+        ]
+      ],
+      "count": 1,
+      "total": 387420489,
+      "question": "Can a 18-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Cm7"
+        },
+        {
+          "step": 3,
+          "chord": "{F#,G,A,Bb}"
+        },
+        {
+          "step": 9,
+          "chord": "{Eb,E,F#,G}"
+        },
+        {
+          "step": 15,
+          "chord": "F#m7/A"
+        },
+        {
+          "step": 18,
+          "chord": "F#m7"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 3,
+          "count": 93
+        },
+        {
+          "removed": 9,
+          "count": 1108
+        },
+        {
+          "removed": 15,
+          "count": 85
+        },
+        {
+          "removed": 18,
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "A shape cycle from Abmaj7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          63,
+          67,
+          68
+        ],
+        [
+          47,
+          64,
+          67,
+          68
+        ],
+        [
+          46,
+          65,
+          67,
+          68
+        ],
+        [
+          45,
+          66,
+          67,
+          68
+        ],
+        [
+          44,
+          66,
+          67,
+          69
+        ],
+        [
+          43,
+          66,
+          67,
+          70
+        ],
+        [
+          42,
+          66,
+          67,
+          71
+        ],
+        [
+          41,
+          66,
+          67,
+          72
+        ],
+        [
+          40,
+          66,
+          67,
+          73
+        ],
+        [
+          39,
+          66,
+          67,
+          74
+        ],
+        [
+          38,
+          66,
+          68,
+          74
+        ],
+        [
+          37,
+          66,
+          69,
+          74
+        ],
+        [
+          36,
+          66,
+          70,
+          74
+        ],
+        [
+          35,
+          66,
+          71,
+          74
+        ],
+        [
+          34,
+          66,
+          72,
+          74
+        ],
+        [
+          33,
+          66,
+          73,
+          74
+        ],
+        [
+          32,
+          67,
+          73,
+          74
+        ],
+        [
+          31,
+          68,
+          73,
+          74
+        ],
+        [
+          30,
+          69,
+          73,
+          74
+        ]
+      ],
+      "count": 1,
+      "total": 387420489,
+      "question": "Can a 18-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Abmaj7/C"
+        },
+        {
+          "step": 3,
+          "chord": "{F#,G,Ab,A}"
+        },
+        {
+          "step": 9,
+          "chord": "{D,Eb,F#,G}"
+        },
+        {
+          "step": 15,
+          "chord": "Dmaj7/A"
+        },
+        {
+          "step": 18,
+          "chord": "Dmaj7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 3,
+          "count": 66
+        },
+        {
+          "removed": 9,
+          "count": 1716
+        },
+        {
+          "removed": 15,
+          "count": 85
+        },
+        {
+          "removed": 18,
+          "count": 16
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "A shape cycle from Dm7/C",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          62,
+          65,
+          69
+        ],
+        [
+          47,
+          62,
+          65,
+          70
+        ],
+        [
+          46,
+          62,
+          65,
+          71
+        ],
+        [
+          45,
+          62,
+          65,
+          72
+        ],
+        [
+          44,
+          62,
+          66,
+          72
+        ],
+        [
+          43,
+          62,
+          67,
+          72
+        ],
+        [
+          42,
+          62,
+          68,
+          72
+        ],
+        [
+          41,
+          62,
+          69,
+          72
+        ],
+        [
+          40,
+          62,
+          70,
+          72
+        ],
+        [
+          39,
+          62,
+          71,
+          72
+        ],
+        [
+          38,
+          63,
+          71,
+          72
+        ],
+        [
+          37,
+          64,
+          71,
+          72
+        ],
+        [
+          36,
+          65,
+          71,
+          72
+        ],
+        [
+          35,
+          66,
+          71,
+          72
+        ],
+        [
+          34,
+          67,
+          71,
+          72
+        ],
+        [
+          33,
+          68,
+          71,
+          72
+        ],
+        [
+          32,
+          68,
+          71,
+          73
+        ],
+        [
+          31,
+          68,
+          71,
+          74
+        ],
+        [
+          30,
+          68,
+          71,
+          75
+        ]
+      ],
+      "count": 1,
+      "total": 387420489,
+      "question": "Can a 18-move path visit the chord shapes shown at the marked moves and finish in the starting shape?",
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Dm7/C"
+        },
+        {
+          "step": 3,
+          "chord": "Dm7/A"
+        },
+        {
+          "step": 9,
+          "chord": "{C,D,Eb,B}"
+        },
+        {
+          "step": 15,
+          "chord": "{C,Ab,A,B}"
+        },
+        {
+          "step": 18,
+          "chord": "Abm7/F#"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 3,
+          "count": 85
+        },
+        {
+          "removed": 9,
+          "count": 1108
+        },
+        {
+          "removed": 15,
+          "count": 93
+        },
+        {
+          "removed": 18,
+          "count": 20
+        }
+      ]
+    },
     {
       "id": 9,
       "title": "A shape cycle from CmMaj7",
@@ -949,5 +1609,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-11-26T16:30:29+00:00"
+  "publishedAt": "2026-11-26T16:33:28+00:00"
 }

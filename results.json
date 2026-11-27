@@ -1,9 +1,183 @@
 {
-  "completed": 278245,
+  "completed": 281869,
   "total": null,
-  "generated": 147835,
+  "generated": 151459,
   "error": false,
   "results": [
+    {
+      "id": 451,
+      "title": "AmMaj7/C to AmMaj7/E with a turning bass",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          64,
+          68,
+          69
+        ],
+        [
+          47,
+          64,
+          68,
+          70
+        ],
+        [
+          46,
+          64,
+          68,
+          71
+        ],
+        [
+          45,
+          64,
+          68,
+          72
+        ],
+        [
+          44,
+          64,
+          68,
+          73
+        ],
+        [
+          43,
+          64,
+          68,
+          74
+        ],
+        [
+          44,
+          64,
+          67,
+          74
+        ],
+        [
+          45,
+          64,
+          66,
+          74
+        ],
+        [
+          46,
+          64,
+          65,
+          74
+        ],
+        [
+          47,
+          64,
+          65,
+          73
+        ],
+        [
+          48,
+          64,
+          65,
+          72
+        ],
+        [
+          49,
+          64,
+          65,
+          71
+        ],
+        [
+          50,
+          64,
+          65,
+          70
+        ],
+        [
+          51,
+          64,
+          65,
+          69
+        ],
+        [
+          52,
+          63,
+          65,
+          69
+        ],
+        [
+          53,
+          62,
+          65,
+          69
+        ],
+        [
+          54,
+          61,
+          65,
+          69
+        ],
+        [
+          55,
+          60,
+          65,
+          69
+        ],
+        [
+          54,
+          60,
+          66,
+          69
+        ],
+        [
+          53,
+          60,
+          67,
+          69
+        ],
+        [
+          52,
+          60,
+          68,
+          69
+        ]
+      ],
+      "count": 1,
+      "total": 3486784401,
+      "question": "Which path follows the marked chords as the bass moves down 5, up 3, up 5, up 4, down 3 semitones? Each segment ends on four distinct pitch classes.",
+      "explanation": [
+        "Moves 1–8 must reach {D, E, F, B♭}. The upper voices share 5 upward moves and 3 downward moves. Of the required upper notes, A♭4 can reach only F4. Of the required upper notes, A4 can reach only D5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 9–13 must reach {E♭, E, F, A}. The upper voices share 5 downward moves. Only D5 can reach the required A4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 14–20 must reach AmMaj7/E. The upper voices share 3 upward moves and 4 downward moves. Of the required upper notes, E4 can reach only C4. Of the required upper notes, F4 can reach only A♭4. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "AmMaj7/C"
+        },
+        {
+          "step": 8,
+          "chord": "{D,E,F,Bb}"
+        },
+        {
+          "step": 13,
+          "chord": "{Eb,E,F,A}"
+        },
+        {
+          "step": 20,
+          "chord": "AmMaj7/E"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 8,
+          "count": 24871
+        },
+        {
+          "removed": 13,
+          "count": 142
+        },
+        {
+          "removed": 20,
+          "count": 587
+        }
+      ]
+    },
     {
       "id": 450,
       "title": "Fmaj7/C to Bmaj7/Eb with a turning bass",
@@ -93213,5 +93387,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-11-27T13:31:03+00:00"
+  "publishedAt": "2026-11-27T13:41:09+00:00"
 }

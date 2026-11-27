@@ -1,9 +1,192 @@
 {
-  "completed": 234745,
+  "completed": 240247,
   "total": null,
-  "generated": 104335,
+  "generated": 109837,
   "error": false,
   "results": [
+    {
+      "id": 437,
+      "title": "FmMaj7/C to DmMaj7 with a turning bass",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          64,
+          65,
+          68
+        ],
+        [
+          47,
+          64,
+          65,
+          69
+        ],
+        [
+          46,
+          64,
+          65,
+          70
+        ],
+        [
+          45,
+          64,
+          65,
+          71
+        ],
+        [
+          44,
+          64,
+          65,
+          72
+        ],
+        [
+          43,
+          64,
+          66,
+          72
+        ],
+        [
+          42,
+          64,
+          67,
+          72
+        ],
+        [
+          41,
+          64,
+          68,
+          72
+        ],
+        [
+          40,
+          64,
+          69,
+          72
+        ],
+        [
+          39,
+          64,
+          70,
+          72
+        ],
+        [
+          40,
+          63,
+          70,
+          72
+        ],
+        [
+          41,
+          62,
+          70,
+          72
+        ],
+        [
+          42,
+          61,
+          70,
+          72
+        ],
+        [
+          43,
+          61,
+          69,
+          72
+        ],
+        [
+          44,
+          61,
+          68,
+          72
+        ],
+        [
+          45,
+          61,
+          67,
+          72
+        ],
+        [
+          46,
+          61,
+          66,
+          72
+        ],
+        [
+          47,
+          61,
+          65,
+          72
+        ],
+        [
+          48,
+          61,
+          65,
+          71
+        ],
+        [
+          49,
+          61,
+          65,
+          70
+        ],
+        [
+          50,
+          61,
+          65,
+          69
+        ]
+      ],
+      "count": 1,
+      "total": 3486784401,
+      "question": "Which path follows the marked chords as the bass moves down 4, down 5, up 3, up 5, up 3 semitones? Each segment ends on four distinct pitch classes.",
+      "explanation": [
+        "Moves 1–4 must reach FmMaj7/A♭. The upper voices share 4 upward moves. Only A♭4 can reach the required C5. This uses every move, so the other upper voices hold their notes.",
+        "Moves 5–12 must reach {C, C♯, F♯, B♭}. The upper voices share 5 upward moves and 3 downward moves. Of the required upper notes, E4 can reach only C♯4. Of the required upper notes, F4 can reach only B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 13–17 must reach {C, C♯, F, B}. The upper voices share 5 downward moves. Only B♭4 can reach the required F4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 18–20 must reach DmMaj7. The upper voices share 3 downward moves. Only C5 can reach the required A4. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "FmMaj7/C"
+        },
+        {
+          "step": 4,
+          "chord": "FmMaj7/Ab"
+        },
+        {
+          "step": 12,
+          "chord": "{C,C#,F#,Bb}"
+        },
+        {
+          "step": 17,
+          "chord": "{C,C#,F,B}"
+        },
+        {
+          "step": 20,
+          "chord": "DmMaj7"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 4,
+          "count": 87
+        },
+        {
+          "removed": 12,
+          "count": 24871
+        },
+        {
+          "removed": 17,
+          "count": 49
+        },
+        {
+          "removed": 20,
+          "count": 20
+        }
+      ]
+    },
     {
       "id": 436,
       "title": "C#mMaj7/C to BbmMaj7/C# with a turning bass",
@@ -90777,5 +90960,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-11-27T11:58:51+00:00"
+  "publishedAt": "2026-11-27T12:08:55+00:00"
 }

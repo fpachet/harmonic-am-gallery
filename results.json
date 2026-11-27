@@ -1,9 +1,519 @@
 {
-  "completed": 336441,
+  "completed": 339386,
   "total": null,
-  "generated": 206031,
+  "generated": 208976,
   "error": false,
   "results": [
+    {
+      "id": 467,
+      "title": "Cmaj7 to Ebmaj7/G with a turning bass",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          64,
+          67,
+          71
+        ],
+        [
+          49,
+          63,
+          67,
+          71
+        ],
+        [
+          50,
+          62,
+          67,
+          71
+        ],
+        [
+          51,
+          61,
+          67,
+          71
+        ],
+        [
+          50,
+          61,
+          68,
+          71
+        ],
+        [
+          49,
+          61,
+          69,
+          71
+        ],
+        [
+          48,
+          61,
+          70,
+          71
+        ],
+        [
+          47,
+          62,
+          70,
+          71
+        ],
+        [
+          46,
+          63,
+          70,
+          71
+        ],
+        [
+          45,
+          64,
+          70,
+          71
+        ],
+        [
+          44,
+          65,
+          70,
+          71
+        ],
+        [
+          43,
+          66,
+          70,
+          71
+        ],
+        [
+          42,
+          67,
+          70,
+          71
+        ],
+        [
+          41,
+          67,
+          70,
+          72
+        ],
+        [
+          40,
+          67,
+          70,
+          73
+        ],
+        [
+          39,
+          67,
+          70,
+          74
+        ],
+        [
+          40,
+          66,
+          70,
+          74
+        ],
+        [
+          41,
+          65,
+          70,
+          74
+        ],
+        [
+          42,
+          64,
+          70,
+          74
+        ],
+        [
+          43,
+          63,
+          70,
+          74
+        ]
+      ],
+      "count": 1,
+      "total": 1162261467,
+      "question": "Which path follows the marked chords as the bass moves up 3, down 3, down 6, down 3, up 4 semitones? Each segment ends on four distinct pitch classes.",
+      "explanation": [
+        "Moves 1–6 must reach {C, C♯, B♭, B}. The upper voices share 3 upward moves and 3 downward moves. Of the required upper notes, E4 can reach only C♯4. Of the required upper notes, G4 can reach only B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 7–12 must reach {F♯, G, B♭, B}. The upper voices share 6 upward moves. Only C♯4 can reach the required G4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 13–19 must reach E♭maj7/G. The upper voices share 3 upward moves and 4 downward moves. Only G4 can reach the required E♭4. Only B4 can reach the required D5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Cmaj7"
+        },
+        {
+          "step": 6,
+          "chord": "{C,C#,Bb,B}"
+        },
+        {
+          "step": 12,
+          "chord": "{F#,G,Bb,B}"
+        },
+        {
+          "step": 19,
+          "chord": "Ebmaj7/G"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 6,
+          "count": 11880
+        },
+        {
+          "removed": 12,
+          "count": 23027
+        },
+        {
+          "removed": 19,
+          "count": 864
+        }
+      ]
+    },
+    {
+      "id": 466,
+      "title": "Fmaj7/C to Abmaj7/G with a turning bass",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          64,
+          65,
+          69
+        ],
+        [
+          49,
+          63,
+          65,
+          69
+        ],
+        [
+          50,
+          62,
+          65,
+          69
+        ],
+        [
+          51,
+          61,
+          65,
+          69
+        ],
+        [
+          50,
+          61,
+          66,
+          69
+        ],
+        [
+          49,
+          61,
+          67,
+          69
+        ],
+        [
+          48,
+          61,
+          68,
+          69
+        ],
+        [
+          47,
+          62,
+          68,
+          69
+        ],
+        [
+          46,
+          63,
+          68,
+          69
+        ],
+        [
+          45,
+          64,
+          68,
+          69
+        ],
+        [
+          44,
+          65,
+          68,
+          69
+        ],
+        [
+          43,
+          66,
+          68,
+          69
+        ],
+        [
+          42,
+          67,
+          68,
+          69
+        ],
+        [
+          41,
+          67,
+          68,
+          70
+        ],
+        [
+          40,
+          67,
+          68,
+          71
+        ],
+        [
+          39,
+          67,
+          68,
+          72
+        ],
+        [
+          40,
+          66,
+          68,
+          72
+        ],
+        [
+          41,
+          65,
+          68,
+          72
+        ],
+        [
+          42,
+          64,
+          68,
+          72
+        ],
+        [
+          43,
+          63,
+          68,
+          72
+        ]
+      ],
+      "count": 1,
+      "total": 1162261467,
+      "question": "Which path follows the marked chords as the bass moves up 3, down 3, down 6, down 3, up 4 semitones? Each segment ends on four distinct pitch classes.",
+      "explanation": [
+        "Moves 1–6 must reach {C, C♯, A♭, A}. The upper voices share 3 upward moves and 3 downward moves. Only E4 can reach the required C♯4. Of the required upper notes, F4 can reach only A♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 7–12 must reach {F♯, G, A♭, A}. The upper voices share 6 upward moves. Only C♯4 can reach the required G4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 13–19 must reach A♭maj7/G. The upper voices share 3 upward moves and 4 downward moves. Only G4 can reach the required E♭4. Only A4 can reach the required C5. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Fmaj7/C"
+        },
+        {
+          "step": 6,
+          "chord": "{C,C#,Ab,A}"
+        },
+        {
+          "step": 12,
+          "chord": "{F#,G,Ab,A}"
+        },
+        {
+          "step": 19,
+          "chord": "Abmaj7/G"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 6,
+          "count": 7302
+        },
+        {
+          "removed": 12,
+          "count": 58300
+        },
+        {
+          "removed": 19,
+          "count": 550
+        }
+      ]
+    },
+    {
+      "id": 465,
+      "title": "Cmaj7 to Cmaj7/E with a turning bass",
+      "evidence": "Exact finite count",
+      "archived": false,
+      "frames": [
+        [
+          48,
+          64,
+          67,
+          71
+        ],
+        [
+          49,
+          63,
+          67,
+          71
+        ],
+        [
+          50,
+          62,
+          67,
+          71
+        ],
+        [
+          51,
+          61,
+          67,
+          71
+        ],
+        [
+          50,
+          61,
+          68,
+          71
+        ],
+        [
+          49,
+          61,
+          69,
+          71
+        ],
+        [
+          48,
+          61,
+          70,
+          71
+        ],
+        [
+          47,
+          62,
+          70,
+          71
+        ],
+        [
+          46,
+          63,
+          70,
+          71
+        ],
+        [
+          45,
+          64,
+          70,
+          71
+        ],
+        [
+          44,
+          65,
+          70,
+          71
+        ],
+        [
+          43,
+          66,
+          70,
+          71
+        ],
+        [
+          44,
+          66,
+          69,
+          71
+        ],
+        [
+          45,
+          66,
+          68,
+          71
+        ],
+        [
+          46,
+          66,
+          67,
+          71
+        ],
+        [
+          47,
+          65,
+          67,
+          71
+        ],
+        [
+          48,
+          64,
+          67,
+          71
+        ],
+        [
+          49,
+          63,
+          67,
+          71
+        ],
+        [
+          50,
+          62,
+          67,
+          71
+        ],
+        [
+          51,
+          61,
+          67,
+          71
+        ],
+        [
+          52,
+          60,
+          67,
+          71
+        ]
+      ],
+      "count": 1,
+      "total": 3486784401,
+      "question": "Which path follows the marked chords as the bass moves up 3, down 3, down 5, up 3, up 6 semitones? Each segment ends on four distinct pitch classes.",
+      "explanation": [
+        "Moves 1–6 must reach {C, C♯, B♭, B}. The upper voices share 3 upward moves and 3 downward moves. Of the required upper notes, E4 can reach only C♯4. Of the required upper notes, G4 can reach only B♭4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 7–14 must reach {F♯, G, B♭, B}. The upper voices share 5 upward moves and 3 downward moves. Only C♯4 can reach the required F♯4. Only B♭4 can reach the required G4. This uses every move, so the other upper voices hold their notes.",
+        "Moves 15–20 must reach Cmaj7/E. The upper voices share 6 downward moves. Only F♯4 can reach the required C4. This uses every move, so the other upper voices hold their notes."
+      ],
+      "checkpoints": [
+        {
+          "step": 0,
+          "chord": "Cmaj7"
+        },
+        {
+          "step": 6,
+          "chord": "{C,C#,Bb,B}"
+        },
+        {
+          "step": 14,
+          "chord": "{F#,G,Bb,B}"
+        },
+        {
+          "step": 20,
+          "chord": "Cmaj7/E"
+        }
+      ],
+      "relaxations": [
+        {
+          "removed": 6,
+          "count": 33337
+        },
+        {
+          "removed": 14,
+          "count": 154926
+        },
+        {
+          "removed": 20,
+          "count": 323
+        }
+      ]
+    },
     {
       "id": 464,
       "title": "Dm7/C to Dm7 with a turning bass",
@@ -95652,5 +96162,5 @@
       ]
     }
   ],
-  "publishedAt": "2026-11-27T15:41:57+00:00"
+  "publishedAt": "2026-11-27T15:52:00+00:00"
 }
